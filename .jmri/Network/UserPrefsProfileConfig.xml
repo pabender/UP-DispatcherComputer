@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>3</major>
+    <minor>10</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <UserMessagePreferences class="jmri.managers.configurexml.DefaultUserMessagePreferencesXml">
+    <windowDetails class="apps.gui3.TabbedPreferencesAction$1:Preferences">
+      <locX>0.0</locX>
+      <locY>27.0</locY>
+      <width>921.0</width>
+      <height>451.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.Roster">
+      <properties>
+        <property>
+          <key class="java.lang.String">defaultRosterGroup</key>
+        </property>
+      </properties>
+    </windowDetails>
+  </UserMessagePreferences>
+  <!--Written by JMRI version 3.10.1-r28327 on Sun Dec 01 21:36:27 CST 2019 $Id: XmlFile.java 27564 2014-11-01 05:08:01Z jacobsen $-->
+</layout-config>
+

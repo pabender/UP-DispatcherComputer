@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profileConfig>
+  <profiles>
+    <profile id="My_JMRI_Railroad.3f1df98b" path="settings:My_JMRI_Railroad/" />
+    <profile id="Network.3ed9c721" path="settings:Network/" />
+  </profiles>
+  <searchPaths>
+    <path path="settings:" />
+  </searchPaths>
+</profileConfig>
+

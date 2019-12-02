@@ -1,0 +1,1225 @@
+2015-03-29 00:34:03,979 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-03-29 00:34:10,192 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-03-29 00:34:10,219 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-03-29 00:34:10,396 apps.Apps                             INFO  - PanelPro version 3.10.1-r28327 starts under Java 1.8.0 at Sun Mar 29 00:34:10 CDT 2015 [main]
+2015-03-29 00:34:19,339 profile.ProfileManager                INFO  - Created default profile "My JMRI Railroad" [main]
+2015-03-29 00:34:19,409 apps.Apps                             INFO  - Starting with profile My_JMRI_Railroad.3f1df98b [main]
+2015-03-29 00:34:19,552 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2015-03-29 00:34:20,868 apps.Apps                             INFO  - No saved preferences, will open preferences window.  Searched for /home/pi/.jmri/My_JMRI_Railroad/ProfileConfig.xml [main]
+2015-03-29 00:34:24,829 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2015-03-29 00:34:31,277 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-03-29 00:34:31,287 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-03-29 00:34:31,299 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-03-29 00:34:31,313 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-03-29 00:34:31,335 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-03-29 00:34:31,355 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython [main]
+2015-03-29 00:34:32,036 util.FileUtil                         WARN  - Creating directory: /home/pi/.jmri/My_JMRI_Railroad/throttle/ [initialize preferences]
+2015-03-29 00:34:32,113 throttle.ThrottlesPreferences         INFO  - Did not find throttle preferences file.  This is normal if you haven't save the preferences before [initialize preferences]
+2015-03-29 00:34:32,857 hrottle.AbstractWiThrottlePreferences INFO  - Could not find WiThrottle preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-03-29 00:34:53,421 anagers.DefaultUserMessagePreferences INFO  - Storing preferences as part of shutdown [AWT-EventQueue-0]
+2015-03-29 00:34:53,791 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2015-03-29 00:40:01,176 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-03-29 00:40:02,179 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-03-29 00:40:02,243 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-03-29 00:40:02,562 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Mar 29 00:40:02 CDT 2015 [main]
+2015-03-29 00:40:02,611 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-03-29 00:40:02,626 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-03-29 00:40:02,664 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-03-29 00:40:02,704 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Mar 29 00:40:02 CDT 2015 [main]
+2015-03-29 00:40:02,747 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-03-29 00:40:14,989 apps.Apps                             INFO  - Starting with profile My_JMRI_Railroad.3f1df98b [main]
+2015-03-29 00:40:16,640 apps.Apps                             INFO  - No saved preferences, will open preferences window.  Searched for /home/pi/.jmri/My_JMRI_Railroad/ProfileConfig.xml [main]
+2015-03-29 00:40:20,198 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2015-03-29 00:40:26,642 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-03-29 00:40:26,662 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-03-29 00:40:26,667 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-03-29 00:40:26,679 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-03-29 00:40:26,685 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-03-29 00:40:26,702 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython [main]
+2015-03-29 00:40:27,345 throttle.ThrottlesPreferences         INFO  - Did not find throttle preferences file.  This is normal if you haven't save the preferences before [initialize preferences]
+2015-03-29 00:40:28,101 hrottle.AbstractWiThrottlePreferences INFO  - Could not find WiThrottle preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-03-29 00:40:43,536 apps.Crandic                          INFO  - main initialization done [main]
+2015-03-29 00:41:03,405 util.FileUtil                         WARN  - Creating directory: /home/pi/.jmri/My_JMRI_Railroad/programmers [initialize preferences]
+2015-03-29 00:41:10,474 json.JsonServerPreferences            INFO  - Could not find JSON Server preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-03-29 00:41:10,679 server.WebServerPreferences           INFO  - Could not find Web Server preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-03-29 00:41:25,621 layout.MsgFilter                      ERROR - No Loconet interface has been defined [AWT-EventQueue-0]
+2015-03-29 00:41:25,668 ptionhandler.UncaughtExceptionHandler ERROR - Unhandled Exception: java.lang.NullPointerException [AWT-EventQueue-0]
+java.lang.NullPointerException
+	at cats.layout.MsgFilter.registerObserver(MsgFilter.java:154)
+	at cats.jmri.MeterLnSensor.addPropertyChangeListener(MeterLnSensor.java:132)
+	at cats.layout.items.IOSpec$SensorMonitor.<init>(IOSpec.java:898)
+	at cats.layout.items.IOSpec.registerListener(IOSpec.java:295)
+	at cats.layout.items.Block$Occupier.<init>(Block.java:1248)
+	at cats.layout.items.Block.doneXML(Block.java:1392)
+	at cats.layout.xml.XMLReader.endElement(XMLReader.java:177)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at cats.layout.xml.XMLReader.parseDocument(XMLReader.java:102)
+	at cats.gui.Screen.init(Screen.java:714)
+	at cats.gui.DispPanel.jMenuFileOpen_actionPerformed(DispPanel.java:185)
+	at cats.gui.DispPanel$1.actionPerformed(DispPanel.java:365)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:833)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:877)
+	at java.awt.Component.processMouseEvent(Component.java:6527)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6292)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4883)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4705)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4705)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:746)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:719)
+	at java.awt.EventQueue$4.run(EventQueue.java:717)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:716)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-04-07 22:04:22,110 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:04:23,086 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:04:23,130 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:04:23,466 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:04:23 CDT 2015 [main]
+2015-04-07 22:04:23,521 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:04:23,551 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:04:23,593 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:04:23,637 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:04:23 CDT 2015 [main]
+2015-04-07 22:04:23,658 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-07 22:04:50,347 apps.Apps                             INFO  - Starting with profile My_JMRI_Railroad.3f1df98b [main]
+2015-04-07 22:04:51,943 apps.Apps                             INFO  - No saved preferences, will open preferences window.  Searched for /home/pi/.jmri/My_JMRI_Railroad/ProfileConfig.xml [main]
+2015-04-07 22:04:55,392 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2015-04-07 22:05:01,918 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-04-07 22:05:01,931 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-04-07 22:05:01,942 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-04-07 22:05:01,952 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-04-07 22:05:01,962 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-04-07 22:05:01,973 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython [main]
+2015-04-07 22:05:02,607 throttle.ThrottlesPreferences         INFO  - Did not find throttle preferences file.  This is normal if you haven't save the preferences before [initialize preferences]
+2015-04-07 22:05:03,352 hrottle.AbstractWiThrottlePreferences INFO  - Could not find WiThrottle preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-04-07 22:05:17,306 apps.Crandic                          INFO  - main initialization done [main]
+2015-04-07 22:05:46,705 json.JsonServerPreferences            INFO  - Could not find JSON Server preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-04-07 22:05:46,947 server.WebServerPreferences           INFO  - Could not find Web Server preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-04-07 22:05:50,915 gui3.TabbedPreferencesAction          INFO  - We are already waiting for the preferences to be displayed [AWT-EventQueue-0]
+2015-04-07 22:12:03,543 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/My_JMRI_Railroad/networkServices/JsonServerPreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:12:03,787 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/My_JMRI_Railroad/networkServices/WebServerPreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:12:04,380 powerpanel.PowerPane                  WARN  - No power manager instance found, panel not active [AWT-EventQueue-0]
+2015-04-07 22:12:04,390 throttle.PowerManagerButton           INFO  - No power manager instance found, panel not active [AWT-EventQueue-0]
+2015-04-07 22:12:04,622 throttle.ThrottlesPreferences         INFO  - Did not find throttle preferences file.  This is normal if you haven't save the preferences before [AWT-EventQueue-0]
+2015-04-07 22:12:04,670 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/My_JMRI_Railroad/throttle/ThrottlesPreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:12:04,706 withrottle.TrackPowerController       INFO  - No power manager instance. [AWT-EventQueue-0]
+2015-04-07 22:12:04,754 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/My_JMRI_Railroad/throttle/WiThrottlePreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:12:05,210 jmrix.AbstractSerialPortController    ERROR - No usable ports returned [AWT-EventQueue-0]
+2015-04-07 22:12:07,944 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2015-04-07 22:12:22,927 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:12:23,915 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:12:23,950 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:12:24,296 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:12:24 CDT 2015 [main]
+2015-04-07 22:12:24,343 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:12:24,380 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:12:24,423 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:12:24,452 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:12:24 CDT 2015 [main]
+2015-04-07 22:12:24,482 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-07 22:12:36,372 apps.Apps                             INFO  - Starting with profile My_JMRI_Railroad.3f1df98b [main]
+2015-04-07 22:13:13,366 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-04-07 22:13:13,376 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-04-07 22:13:13,406 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-04-07 22:13:13,416 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-04-07 22:13:13,442 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-04-07 22:13:13,458 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2015-04-07 22:13:14,267 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2015-04-07 22:13:15,212 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/Per-Layout-Dispatcher.xml [AWT-EventQueue-0]
+2015-04-07 22:13:16,726 apps.Crandic                          INFO  - main initialization done [main]
+2015-04-07 22:15:03,752 configurexml.ConfigXmlManager         WARN  - Could not locate file C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml [AWT-EventQueue-0]
+2015-04-07 22:15:03,757 apps.Crandic                          WARN  - Could not find C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml config file [AWT-EventQueue-0]
+2015-04-07 22:15:07,673 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2015-04-07 22:15:07,689 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2015-04-07 22:15:07,695 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2015-04-07 22:15:07,776 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2015-04-07 22:15:07,792 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2015-04-07 22:15:07,797 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2015-04-07 22:15:32,504 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [RREventManager]
+2015-04-07 22:16:03,440 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [RREventManager]
+2015-04-07 22:16:23,859 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [RREventManager]
+2015-04-07 22:17:06,784 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:17:07,795 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:17:07,824 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:17:08,154 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:17:08 CDT 2015 [main]
+2015-04-07 22:17:08,187 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:17:08,222 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:17:08,265 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:17:08,303 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:17:08 CDT 2015 [main]
+2015-04-07 22:17:08,339 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-07 22:17:21,572 apps.Apps                             INFO  - Starting with profile My_JMRI_Railroad.3f1df98b [main]
+2015-04-07 22:17:58,069 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-04-07 22:17:58,079 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-04-07 22:17:58,102 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/My_JMRI_Railroad/ [main]
+2015-04-07 22:17:58,123 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-04-07 22:17:58,145 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-04-07 22:17:58,153 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2015-04-07 22:17:58,910 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2015-04-07 22:17:59,831 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/Per-Layout-Dispatcher.xml [AWT-EventQueue-0]
+2015-04-07 22:18:02,210 apps.Crandic                          INFO  - main initialization done [main]
+2015-04-07 22:18:44,197 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2015-04-07 22:43:24,019 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:43:25,005 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:43:25,072 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:43:25,391 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:43:25 CDT 2015 [main]
+2015-04-07 22:43:25,427 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-07 22:43:25,457 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-07 22:43:25,517 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-07 22:43:25,552 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Apr 07 22:43:25 CDT 2015 [main]
+2015-04-07 22:43:25,576 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-07 22:43:53,492 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2015-04-07 22:43:53,862 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2015-04-07 22:43:54,839 apps.Apps                             INFO  - No saved preferences, will open preferences window.  Searched for /home/pi/.jmri/Network/ProfileConfig.xml [main]
+2015-04-07 22:43:58,206 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2015-04-07 22:44:04,586 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-04-07 22:44:04,591 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2015-04-07 22:44:04,596 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2015-04-07 22:44:04,601 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-04-07 22:44:04,610 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-04-07 22:44:04,621 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython [main]
+2015-04-07 22:44:05,186 util.FileUtil                         WARN  - Creating directory: /home/pi/.jmri/Network/throttle/ [initialize preferences]
+2015-04-07 22:44:05,217 throttle.ThrottlesPreferences         INFO  - Did not find throttle preferences file.  This is normal if you haven't save the preferences before [initialize preferences]
+2015-04-07 22:44:05,955 hrottle.AbstractWiThrottlePreferences INFO  - Could not find WiThrottle preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-04-07 22:44:20,365 apps.Crandic                          INFO  - main initialization done [main]
+2015-04-07 22:44:38,862 util.FileUtil                         WARN  - Creating directory: /home/pi/.jmri/Network/programmers [initialize preferences]
+2015-04-07 22:44:44,486 json.JsonServerPreferences            INFO  - Could not find JSON Server preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-04-07 22:44:44,683 server.WebServerPreferences           INFO  - Could not find Web Server preferences file.  Normal if preferences have not been saved before. [initialize preferences]
+2015-04-07 22:59:09,992 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/Network/networkServices/JsonServerPreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:59:10,046 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/Network/networkServices/WebServerPreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:59:10,439 powerpanel.PowerPane                  WARN  - No power manager instance found, panel not active [AWT-EventQueue-0]
+2015-04-07 22:59:10,443 throttle.PowerManagerButton           INFO  - No power manager instance found, panel not active [AWT-EventQueue-0]
+2015-04-07 22:59:10,635 throttle.ThrottlesPreferences         INFO  - Did not find throttle preferences file.  This is normal if you haven't save the preferences before [AWT-EventQueue-0]
+2015-04-07 22:59:10,678 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/Network/throttle/ThrottlesPreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:59:10,730 withrottle.TrackPowerController       INFO  - No power manager instance. [AWT-EventQueue-0]
+2015-04-07 22:59:10,766 jmrit.XmlFile                         INFO  - No /home/pi/.jmri/Network/throttle/WiThrottlePreferences.xml file to backup [AWT-EventQueue-0]
+2015-04-07 22:59:14,256 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2015-04-08 11:30:38,698 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-08 11:30:39,778 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-08 11:30:39,826 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-08 11:30:40,189 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Wed Apr 08 11:30:40 CDT 2015 [main]
+2015-04-08 11:30:40,257 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-08 11:30:40,298 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-08 11:30:40,342 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-08 11:30:40,391 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Wed Apr 08 11:30:40 CDT 2015 [main]
+2015-04-08 11:30:40,437 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-08 11:31:03,128 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2015-04-08 11:31:04,218 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2015-04-08 11:31:04,560 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2015-04-08 11:31:17,636 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.UnknownHostException: (none) [main]
+2015-04-08 11:31:17,723 configurexml.ErrorHandler             ERROR - (none) while opening connection [main]
+2015-04-08 11:35:16,640 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-08 11:35:26,034 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-08 11:35:26,062 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-08 11:35:26,234 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Wed Apr 08 11:35:26 CDT 2015 [main]
+2015-04-08 11:35:26,279 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-08 11:35:26,309 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-08 11:35:26,351 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-08 11:35:26,382 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Wed Apr 08 11:35:26 CDT 2015 [main]
+2015-04-08 11:35:26,415 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-08 11:35:50,369 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2015-04-08 11:35:51,417 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2015-04-08 11:35:51,754 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2015-04-08 11:36:06,046 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.UnknownHostException: (none) [main]
+2015-04-08 11:36:06,099 configurexml.ErrorHandler             ERROR - (none) while opening connection [main]
+2019-08-02 22:53:41,517 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-08-02 22:53:42,753 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-08-02 22:53:42,790 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-08-02 22:53:43,109 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Fri Aug 02 22:53:42 CDT 2019 [main]
+2019-08-02 22:53:43,162 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-08-02 22:53:43,203 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-08-02 22:53:43,235 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-08-02 22:53:43,269 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Fri Aug 02 22:53:43 CDT 2019 [main]
+2019-08-02 22:53:43,320 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-08-02 22:54:04,373 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-08-02 22:54:05,446 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-08-02 22:54:05,779 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-08-02 22:54:18,388 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.UnknownHostException: (none) [main]
+2019-08-02 22:54:18,438 configurexml.ErrorHandler             ERROR - (none) while opening connection [main]
+2019-08-02 22:54:56,824 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-08-02 22:54:56,842 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-08-02 22:55:09,765 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-08-02 22:55:16,052 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-08-02 22:55:16,056 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-08-02 22:55:16,061 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-08-02 22:55:16,065 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-08-02 22:55:16,068 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-08-02 22:55:16,077 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-08-02 22:55:16,989 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-08-02 22:55:17,276 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS514 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:17,281 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS514" User name "Real Block 2" [AWT-EventQueue-0]
+2019-08-02 22:55:22,462 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS516 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:22,466 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS516" User name "Block B4" [AWT-EventQueue-0]
+2019-08-02 22:55:24,632 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS517 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:24,651 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS517" User name "Real Block B4A" [AWT-EventQueue-0]
+2019-08-02 22:55:25,764 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS518 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:25,769 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS518" User name "Real Block B5" [AWT-EventQueue-0]
+2019-08-02 22:55:26,690 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS521 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:26,694 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS521" User name "Real Block 6" [AWT-EventQueue-0]
+2019-08-02 22:55:27,710 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS527 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:27,735 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS527" User name "Real Block 12" [AWT-EventQueue-0]
+2019-08-02 22:55:28,657 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1001 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:28,677 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1001" User name "ADM Switch Lock" [AWT-EventQueue-0]
+2019-08-02 22:55:29,439 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1004 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:29,448 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1004" User name "Brewery Switch Lock" [AWT-EventQueue-0]
+2019-08-02 22:55:30,309 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1005 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:30,333 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1005" User name "Waycross Yard Crossover Lock" [AWT-EventQueue-0]
+2019-08-02 22:55:31,198 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1006 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:31,213 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1006" User name "Yard Switch Lock" [AWT-EventQueue-0]
+2019-08-02 22:55:32,089 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS2003 needed IS [AWT-EventQueue-0]
+2019-08-02 22:55:32,116 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS2003" User name "Coleman Industrial Lead Lock" [AWT-EventQueue-0]
+2019-08-02 22:55:33,409 managers.AbstractTurnoutManager       ERROR - Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+2019-08-02 22:55:33,442 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml Exception: java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:71)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.newNamedBean(AbstractProxyManager.java:176)
+	at jmri.managers.ProxyTurnoutManager.newTurnout(ProxyTurnoutManager.java:110)
+	at jmri.managers.configurexml.AbstractTurnoutManagerConfigXML.loadTurnouts(AbstractTurnoutManagerConfigXML.java:222)
+	at jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml.load(XNetTurnoutManagerXml.java:33)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-08-02 22:55:44,599 apps.Crandic                          INFO  - main initialization done [main]
+2015-04-08 11:37:21,796 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-08 11:37:23,135 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-08 11:37:23,159 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-08 11:37:23,520 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Wed Apr 08 11:37:23 CDT 2015 [main]
+2015-04-08 11:37:23,572 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2015-04-08 11:37:23,596 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2015-04-08 11:37:23,652 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2015-04-08 11:37:23,684 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Wed Apr 08 11:37:23 CDT 2015 [main]
+2015-04-08 11:37:23,722 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2015-04-08 11:37:40,168 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2015-04-08 11:37:40,518 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2015-04-08 11:38:39,221 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.UnknownHostException: (none) [main]
+2015-04-08 11:38:39,282 configurexml.ErrorHandler             ERROR - (none) while opening connection [main]
+2015-04-08 11:41:21,133 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection timed out [main]
+2015-04-08 11:41:21,141 configurexml.ErrorHandler             ERROR - Connection timed out while opening connection [main]
+2015-04-08 11:41:35,165 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2015-04-08 11:41:41,622 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2015-04-08 11:41:41,626 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2015-04-08 11:41:41,630 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2015-04-08 11:41:41,634 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2015-04-08 11:41:41,637 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2015-04-08 11:41:41,641 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2015-04-08 11:41:42,568 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2015-04-08 11:41:42,866 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS514 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:42,871 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS514" User name "Real Block 2" [AWT-EventQueue-0]
+2015-04-08 11:41:47,611 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS516 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:47,637 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS516" User name "Block B4" [AWT-EventQueue-0]
+2015-04-08 11:41:49,088 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS517 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:49,093 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS517" User name "Real Block B4A" [AWT-EventQueue-0]
+2015-04-08 11:41:50,096 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS518 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:50,124 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS518" User name "Real Block B5" [AWT-EventQueue-0]
+2015-04-08 11:41:51,091 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS521 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:51,119 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS521" User name "Real Block 6" [AWT-EventQueue-0]
+2015-04-08 11:41:52,022 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS527 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:52,025 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS527" User name "Real Block 12" [AWT-EventQueue-0]
+2015-04-08 11:41:53,027 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1001 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:53,041 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1001" User name "ADM Switch Lock" [AWT-EventQueue-0]
+2015-04-08 11:41:53,913 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1004 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:53,917 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1004" User name "Brewery Switch Lock" [AWT-EventQueue-0]
+2015-04-08 11:41:54,846 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1005 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:54,868 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1005" User name "Waycross Yard Crossover Lock" [AWT-EventQueue-0]
+2015-04-08 11:41:55,805 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1006 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:55,831 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1006" User name "Yard Switch Lock" [AWT-EventQueue-0]
+2015-04-08 11:41:56,700 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS2003 needed IS [AWT-EventQueue-0]
+2015-04-08 11:41:56,704 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS2003" User name "Coleman Industrial Lead Lock" [AWT-EventQueue-0]
+2015-04-08 11:41:57,877 managers.AbstractTurnoutManager       ERROR - Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+2015-04-08 11:41:57,891 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml Exception: java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:71)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.newNamedBean(AbstractProxyManager.java:176)
+	at jmri.managers.ProxyTurnoutManager.newTurnout(ProxyTurnoutManager.java:110)
+	at jmri.managers.configurexml.AbstractTurnoutManagerConfigXML.loadTurnouts(AbstractTurnoutManagerConfigXML.java:222)
+	at jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml.load(XNetTurnoutManagerXml.java:33)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-04-08 11:42:09,312 apps.Crandic                          INFO  - main initialization done [main]
+2019-09-10 22:54:37,932 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 22:54:39,197 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 22:54:39,221 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 22:54:39,572 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 22:54:39 CDT 2019 [main]
+2019-09-10 22:54:39,621 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 22:54:39,650 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 22:54:39,699 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 22:54:39,768 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 22:54:39 CDT 2019 [main]
+2019-09-10 22:54:39,794 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-09-10 22:55:00,029 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-09-10 22:55:00,367 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-09-10 22:55:13,009 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.UnknownHostException: (none) [main]
+2019-09-10 22:55:13,068 configurexml.ErrorHandler             ERROR - (none) while opening connection [main]
+2019-09-10 22:55:49,098 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-09-10 22:55:55,681 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-09-10 22:55:55,688 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-09-10 22:55:55,706 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-09-10 22:55:55,725 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-09-10 22:55:55,731 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-09-10 22:55:55,747 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-09-10 22:55:56,684 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-09-10 22:55:56,953 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS514 needed CS [AWT-EventQueue-0]
+2019-09-10 22:55:56,957 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS514" User name "Real Block 2" [AWT-EventQueue-0]
+2019-09-10 22:56:00,900 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS516 needed CS [AWT-EventQueue-0]
+2019-09-10 22:56:00,915 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS516" User name "Block B4" [AWT-EventQueue-0]
+2019-09-10 22:56:02,394 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS517 needed CS [AWT-EventQueue-0]
+2019-09-10 22:56:02,406 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS517" User name "Real Block B4A" [AWT-EventQueue-0]
+2019-09-10 22:56:03,588 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS518 needed CS [AWT-EventQueue-0]
+2019-09-10 22:56:03,603 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS518" User name "Real Block B5" [AWT-EventQueue-0]
+2019-09-10 22:56:04,701 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS521 needed CS [AWT-EventQueue-0]
+2019-09-10 22:56:04,715 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS521" User name "Real Block 6" [AWT-EventQueue-0]
+2019-09-10 22:56:05,695 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS527 needed CS [AWT-EventQueue-0]
+2019-09-10 22:56:05,714 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS527" User name "Real Block 12" [AWT-EventQueue-0]
+2019-09-10 22:56:07,507 managers.AbstractTurnoutManager       ERROR - Invalid system name for turnout: XT6 needed CT [AWT-EventQueue-0]
+2019-09-10 22:56:07,522 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml Exception: java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed CT [AWT-EventQueue-0]
+java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed CT
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:71)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.newNamedBean(AbstractProxyManager.java:176)
+	at jmri.managers.ProxyTurnoutManager.newTurnout(ProxyTurnoutManager.java:110)
+	at jmri.managers.configurexml.AbstractTurnoutManagerConfigXML.loadTurnouts(AbstractTurnoutManagerConfigXML.java:222)
+	at jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml.load(XNetTurnoutManagerXml.java:33)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-09-10 22:56:14,803 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.managers.configurexml.DefaultConditionalManagerXml Exception: java.lang.NumberFormatException: For input string: "Switch 6" [AWT-EventQueue-0]
+java.lang.NumberFormatException: For input string: "Switch 6"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at jmri.jmrix.jmriclient.JMRIClientTurnoutManager.createNewTurnout(JMRIClientTurnoutManager.java:33)
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:92)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.provideNamedBean(AbstractProxyManager.java:112)
+	at jmri.managers.ProxyTurnoutManager.provideTurnout(ProxyTurnoutManager.java:59)
+	at jmri.ConditionalVariable.setName(ConditionalVariable.java:225)
+	at jmri.managers.configurexml.DefaultConditionalManagerXml.loadConditionals(DefaultConditionalManagerXml.java:248)
+	at jmri.managers.configurexml.DefaultConditionalManagerXml.load(DefaultConditionalManagerXml.java:166)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-09-10 22:56:31,272 apps.Crandic                          INFO  - main initialization done [main]
+2019-09-10 22:57:43,039 apps.AppConfigBase                    ERROR - Duplicate ports found on: JMRI (Network), JMRI (Network) for port: 192.168.2.99:2048 [AWT-EventQueue-0]
+2019-09-10 22:57:52,858 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2019-09-10 23:01:36,917 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 23:01:38,173 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 23:01:38,203 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 23:01:38,550 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 23:01:38 CDT 2019 [main]
+2019-09-10 23:01:38,600 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 23:01:38,621 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 23:01:38,658 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 23:01:38,723 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 23:01:38 CDT 2019 [main]
+2019-09-10 23:01:38,753 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-09-10 23:01:54,648 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-09-10 23:01:54,998 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-09-10 23:02:26,617 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-09-10 23:02:33,226 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-09-10 23:02:33,237 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-09-10 23:02:33,253 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-09-10 23:02:33,273 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-09-10 23:02:33,279 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-09-10 23:02:33,296 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-09-10 23:06:25,306 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 23:06:26,585 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 23:06:26,644 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 23:06:27,087 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 23:06:26 CDT 2019 [main]
+2019-09-10 23:06:27,202 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 23:06:27,248 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 23:06:27,280 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 23:06:27,421 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 23:06:27 CDT 2019 [main]
+2019-09-10 23:06:27,545 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-09-10 23:06:40,997 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-09-10 23:06:41,385 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-09-10 23:07:12,577 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-09-10 23:07:20,169 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-09-10 23:07:20,217 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-09-10 23:07:20,237 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-09-10 23:07:20,277 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-09-10 23:07:20,305 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-09-10 23:07:20,336 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-09-10 23:22:19,491 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 23:22:20,925 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 23:22:20,951 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 23:22:21,323 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 23:22:21 CDT 2019 [main]
+2019-09-10 23:22:21,371 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-10 23:22:21,391 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-10 23:22:21,434 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-10 23:22:21,503 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Sep 10 23:22:21 CDT 2019 [main]
+2019-09-10 23:22:21,565 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-09-10 23:22:46,583 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-09-10 23:22:47,866 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-09-10 23:22:48,232 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-09-10 23:23:20,432 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-09-10 23:23:27,110 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-09-10 23:23:27,117 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-09-10 23:23:27,123 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-09-10 23:23:27,148 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-09-10 23:23:27,182 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-09-10 23:23:27,198 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-09-10 23:23:28,249 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-09-10 23:23:30,426 apps.Crandic                          INFO  - main initialization done [main]
+2019-09-10 23:33:39,914 configurexml.ConfigXmlManager         WARN  - Could not locate file C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-09-10 23:33:39,920 apps.Crandic                          WARN  - Could not find C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml config file [AWT-EventQueue-0]
+2019-09-10 23:33:43,557 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-09-10 23:33:43,580 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-09-10 23:33:43,589 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-09-10 23:33:43,700 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-09-10 23:33:43,738 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-09-10 23:33:43,748 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-09-30 20:47:28,946 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-30 20:47:30,216 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-30 20:47:30,253 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-30 20:47:30,609 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Mon Sep 30 20:47:30 CDT 2019 [main]
+2019-09-30 20:47:30,663 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-09-30 20:47:30,678 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-09-30 20:47:30,727 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-09-30 20:47:30,792 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Mon Sep 30 20:47:30 CDT 2019 [main]
+2019-09-30 20:47:30,814 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-09-30 20:47:52,007 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-09-30 20:47:53,354 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-09-30 20:47:53,712 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-09-30 20:47:59,374 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-09-30 20:47:59,427 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-09-30 20:48:14,660 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-09-30 20:48:14,683 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-09-30 20:48:46,679 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-09-30 20:48:53,240 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-09-30 20:48:53,245 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-09-30 20:48:53,249 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-09-30 20:48:53,253 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-09-30 20:48:53,257 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-09-30 20:48:53,261 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-09-30 20:48:54,199 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-09-30 20:48:54,689 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS514 needed IS [AWT-EventQueue-0]
+2019-09-30 20:48:54,694 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS514" User name "Real Block 2" [AWT-EventQueue-0]
+2019-09-30 21:05:29,381 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS516 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:29,385 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS516" User name "Block B4" [AWT-EventQueue-0]
+2019-09-30 21:05:30,766 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS517 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:30,771 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS517" User name "Real Block B4A" [AWT-EventQueue-0]
+2019-09-30 21:05:31,743 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS518 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:31,761 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS518" User name "Real Block B5" [AWT-EventQueue-0]
+2019-09-30 21:05:32,810 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS521 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:32,814 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS521" User name "Real Block 6" [AWT-EventQueue-0]
+2019-09-30 21:05:33,702 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS527 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:33,715 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS527" User name "Real Block 12" [AWT-EventQueue-0]
+2019-09-30 21:05:34,525 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1001 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:34,541 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1001" User name "ADM Switch Lock" [AWT-EventQueue-0]
+2019-09-30 21:05:35,428 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1004 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:35,433 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1004" User name "Brewery Switch Lock" [AWT-EventQueue-0]
+2019-09-30 21:05:36,385 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1005 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:36,394 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1005" User name "Waycross Yard Crossover Lock" [AWT-EventQueue-0]
+2019-09-30 21:05:37,420 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1006 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:37,423 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1006" User name "Yard Switch Lock" [AWT-EventQueue-0]
+2019-09-30 21:05:38,553 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS2003 needed IS [AWT-EventQueue-0]
+2019-09-30 21:05:38,557 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS2003" User name "Coleman Industrial Lead Lock" [AWT-EventQueue-0]
+2019-09-30 21:05:39,683 managers.AbstractTurnoutManager       ERROR - Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+2019-09-30 21:05:39,722 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml Exception: java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:71)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.newNamedBean(AbstractProxyManager.java:176)
+	at jmri.managers.ProxyTurnoutManager.newTurnout(ProxyTurnoutManager.java:110)
+	at jmri.managers.configurexml.AbstractTurnoutManagerConfigXML.loadTurnouts(AbstractTurnoutManagerConfigXML.java:222)
+	at jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml.load(XNetTurnoutManagerXml.java:33)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-09-30 23:28:32,417 apps.Crandic                          INFO  - main initialization done [main]
+2019-12-01 09:43:11,794 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 09:43:12,954 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 09:43:12,977 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 09:43:13,302 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 09:43:13 CST 2019 [main]
+2019-12-01 09:43:13,344 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 09:43:13,374 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 09:43:13,407 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 09:43:13,452 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 09:43:13 CST 2019 [main]
+2019-12-01 09:43:13,474 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 09:43:33,765 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-12-01 09:43:34,782 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 09:43:35,104 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 09:43:40,567 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-12-01 09:43:40,617 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-12-01 20:28:53,962 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:28:55,129 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:28:55,152 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:28:55,477 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:28:55 CST 2019 [main]
+2019-12-01 20:28:55,514 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:28:55,553 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:28:55,585 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:28:55,616 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:28:55 CST 2019 [main]
+2019-12-01 20:28:55,658 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 20:29:15,938 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-12-01 20:29:16,969 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 20:29:17,310 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 20:29:22,818 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-12-01 20:29:22,863 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-12-01 20:33:00,166 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:33:01,396 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:33:01,420 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:33:01,752 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:33:01 CST 2019 [main]
+2019-12-01 20:33:01,807 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:33:01,827 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:33:01,860 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:33:01,919 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:33:01 CST 2019 [main]
+2019-12-01 20:33:01,951 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 20:33:22,846 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-12-01 20:33:23,936 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 20:33:24,286 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 20:33:29,949 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-12-01 20:33:30,006 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-12-01 20:34:08,315 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-12-01 20:34:08,330 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-12-01 20:34:39,565 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 20:34:46,222 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 20:34:46,227 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 20:34:46,231 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 20:34:46,235 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 20:34:46,238 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 20:34:46,243 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 20:34:47,177 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-12-01 20:34:47,689 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS514 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:47,694 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS514" User name "Real Block 2" [AWT-EventQueue-0]
+2019-12-01 20:34:51,509 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS516 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:51,530 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS516" User name "Block B4" [AWT-EventQueue-0]
+2019-12-01 20:34:52,930 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS517 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:52,949 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS517" User name "Real Block B4A" [AWT-EventQueue-0]
+2019-12-01 20:34:54,111 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS518 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:54,139 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS518" User name "Real Block B5" [AWT-EventQueue-0]
+2019-12-01 20:34:55,022 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS521 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:55,035 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS521" User name "Real Block 6" [AWT-EventQueue-0]
+2019-12-01 20:34:57,024 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS527 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:57,035 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS527" User name "Real Block 12" [AWT-EventQueue-0]
+2019-12-01 20:34:58,009 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1001 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:58,026 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1001" User name "ADM Switch Lock" [AWT-EventQueue-0]
+2019-12-01 20:34:58,834 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1004 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:58,854 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1004" User name "Brewery Switch Lock" [AWT-EventQueue-0]
+2019-12-01 20:34:59,687 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1005 needed IS [AWT-EventQueue-0]
+2019-12-01 20:34:59,695 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1005" User name "Waycross Yard Crossover Lock" [AWT-EventQueue-0]
+2019-12-01 20:35:00,532 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1006 needed IS [AWT-EventQueue-0]
+2019-12-01 20:35:00,541 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1006" User name "Yard Switch Lock" [AWT-EventQueue-0]
+2019-12-01 20:35:01,533 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS2003 needed IS [AWT-EventQueue-0]
+2019-12-01 20:35:01,537 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS2003" User name "Coleman Industrial Lead Lock" [AWT-EventQueue-0]
+2019-12-01 20:35:02,664 managers.AbstractTurnoutManager       ERROR - Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+2019-12-01 20:35:02,699 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml Exception: java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:71)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.newNamedBean(AbstractProxyManager.java:176)
+	at jmri.managers.ProxyTurnoutManager.newTurnout(ProxyTurnoutManager.java:110)
+	at jmri.managers.configurexml.AbstractTurnoutManagerConfigXML.loadTurnouts(AbstractTurnoutManagerConfigXML.java:222)
+	at jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml.load(XNetTurnoutManagerXml.java:33)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-12-01 20:35:14,040 apps.Crandic                          INFO  - main initialization done [main]
+2019-12-01 20:39:45,388 powerpanel.PowerPane                  WARN  - No power manager instance found, panel not active [AWT-EventQueue-0]
+2019-12-01 20:39:45,398 throttle.PowerManagerButton           INFO  - No power manager instance found, panel not active [AWT-EventQueue-0]
+2019-12-01 20:39:45,812 withrottle.TrackPowerController       INFO  - No power manager instance. [AWT-EventQueue-0]
+2019-12-01 20:39:50,142 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2019-12-01 20:41:18,490 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:41:19,717 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:41:19,743 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:41:20,203 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:41:20 CST 2019 [main]
+2019-12-01 20:41:20,307 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:41:20,377 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:41:20,506 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:41:20,633 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:41:20 CST 2019 [main]
+2019-12-01 20:41:20,696 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 20:41:37,892 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 20:41:38,276 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 20:41:44,250 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.NoRouteToHostException: No route to host [main]
+2019-12-01 20:41:44,363 configurexml.ErrorHandler             ERROR - No route to host while opening connection [main]
+2019-12-01 20:42:21,244 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 20:45:20,886 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:45:22,143 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:45:22,187 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:45:22,599 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:45:22 CST 2019 [main]
+2019-12-01 20:45:22,678 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:45:22,752 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:45:22,832 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:45:22,976 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:45:22 CST 2019 [main]
+2019-12-01 20:45:23,040 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 20:45:37,364 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 20:45:37,756 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 20:46:09,355 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 20:46:16,009 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 20:46:16,028 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 20:46:16,076 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 20:46:16,089 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 20:46:16,146 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 20:46:16,158 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 20:52:49,075 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:52:50,312 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:52:50,378 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:52:50,782 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:52:50 CST 2019 [main]
+2019-12-01 20:52:50,878 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 20:52:50,940 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 20:52:51,067 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 20:52:51,113 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 20:52:51 CST 2019 [main]
+2019-12-01 20:52:51,257 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 20:53:10,347 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 20:53:10,728 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 20:53:42,277 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 20:53:48,886 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 20:53:48,936 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 20:53:48,948 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 20:53:48,999 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 20:53:49,029 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 20:53:49,058 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 20:53:50,304 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-12-01 20:53:52,069 apps.Crandic                          INFO  - main initialization done [main]
+2019-12-01 20:53:53,672 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT6
+ consecutive timeouts = 0 [Transmit]
+2019-12-01 20:54:20,825 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
+2019-12-01 20:55:00,216 audio.NullAudioFactory                WARN  - Initialised Null audio system - no sounds will be available. [Listed Table Generation]
+2019-12-01 20:56:31,213 configurexml.ConfigXmlManager         WARN  - Could not locate file C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-12-01 20:56:31,228 apps.Crandic                          WARN  - Could not find C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml config file [AWT-EventQueue-0]
+2019-12-01 20:56:35,132 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-12-01 20:56:35,149 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-12-01 20:56:35,157 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-12-01 20:56:35,243 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-12-01 20:56:35,258 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-12-01 20:56:35,262 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2019-12-01 20:56:37,778 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT52
+ consecutive timeouts = 0 [Transmit]
+2019-12-01 20:56:39,798 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT51
+ consecutive timeouts = 1 [Transmit]
+2019-12-01 20:56:41,806 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT50
+ consecutive timeouts = 2 [Transmit]
+2019-12-01 20:56:43,811 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT49
+ consecutive timeouts = 3 [Transmit]
+2019-12-01 20:56:45,822 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT54
+ consecutive timeouts = 4 [Transmit]
+2019-12-01 20:56:47,828 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT55
+ consecutive timeouts = 5 [Transmit]
+2019-12-01 20:56:49,837 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT41
+ consecutive timeouts = 6 [Transmit]
+2019-12-01 20:56:51,844 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT43
+ consecutive timeouts = 7 [Transmit]
+2019-12-01 20:56:53,851 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT45
+ consecutive timeouts = 8 [Transmit]
+2019-12-01 20:56:55,859 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT47
+ consecutive timeouts = 9 [Transmit]
+2019-12-01 20:56:57,893 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT28
+ consecutive timeouts = 10 [Transmit]
+2019-12-01 20:56:59,915 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT26
+ consecutive timeouts = 11 [Transmit]
+2019-12-01 20:57:01,846 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
+2019-12-01 20:57:04,317 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT29
+ consecutive timeouts = 0 [Transmit]
+2019-12-01 20:57:06,351 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT32
+ consecutive timeouts = 1 [Transmit]
+2019-12-01 20:57:08,362 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT34
+ consecutive timeouts = 2 [Transmit]
+2019-12-01 20:57:10,372 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT25
+ consecutive timeouts = 3 [Transmit]
+2019-12-01 20:57:12,406 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT1
+ consecutive timeouts = 4 [Transmit]
+2019-12-01 20:57:14,413 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT3
+ consecutive timeouts = 5 [Transmit]
+2019-12-01 20:57:16,421 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT2
+ consecutive timeouts = 6 [Transmit]
+2019-12-01 20:57:18,428 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT33
+ consecutive timeouts = 7 [Transmit]
+2019-12-01 20:57:20,434 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT31
+ consecutive timeouts = 8 [Transmit]
+2019-12-01 20:57:22,441 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT30
+ consecutive timeouts = 9 [Transmit]
+2019-12-01 20:57:24,448 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT39
+ consecutive timeouts = 10 [Transmit]
+2019-12-01 20:57:26,455 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT38
+ consecutive timeouts = 11 [Transmit]
+2019-12-01 20:57:28,463 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT37
+ consecutive timeouts = 12 [Transmit]
+2019-12-01 20:57:30,471 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT36
+ consecutive timeouts = 13 [Transmit]
+2019-12-01 20:57:32,478 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT42
+ consecutive timeouts = 14 [Transmit]
+2019-12-01 20:57:34,486 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS531
+ consecutive timeouts = 15 [Transmit]
+2019-12-01 20:57:36,525 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT21
+ consecutive timeouts = 16 [Transmit]
+2019-12-01 20:57:38,531 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT62
+ consecutive timeouts = 17 [Transmit]
+2019-12-01 20:57:40,539 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT22
+ consecutive timeouts = 18 [Transmit]
+2019-12-01 20:57:42,546 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT61
+ consecutive timeouts = 19 [Transmit]
+2019-12-01 20:57:44,553 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS541
+ consecutive timeouts = 20 [Transmit]
+2019-12-01 20:57:46,560 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS529
+ consecutive timeouts = 21 [Transmit]
+2019-12-01 20:57:48,567 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS532
+ consecutive timeouts = 22 [Transmit]
+2019-12-01 20:57:50,574 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS515
+ consecutive timeouts = 23 [Transmit]
+2019-12-01 20:57:52,581 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS525
+ consecutive timeouts = 24 [Transmit]
+2019-12-01 20:57:54,588 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS528
+ consecutive timeouts = 25 [Transmit]
+2019-12-01 20:57:56,595 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS530
+ consecutive timeouts = 26 [Transmit]
+2019-12-01 20:57:58,602 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS522
+ consecutive timeouts = 27 [Transmit]
+2019-12-01 20:58:00,609 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT9
+ consecutive timeouts = 28 [Transmit]
+2019-12-01 20:58:02,616 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS523
+ consecutive timeouts = 29 [Transmit]
+2019-12-01 20:58:04,623 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS524
+ consecutive timeouts = 30 [Transmit]
+2019-12-01 20:58:06,630 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT13
+ consecutive timeouts = 31 [Transmit]
+2019-12-01 20:58:08,637 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS526
+ consecutive timeouts = 32 [Transmit]
+2019-12-01 20:58:10,644 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT14
+ consecutive timeouts = 33 [Transmit]
+2019-12-01 20:58:12,651 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS537
+ consecutive timeouts = 34 [Transmit]
+2019-12-01 20:58:14,658 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS538
+ consecutive timeouts = 35 [Transmit]
+2019-12-01 20:58:16,666 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT17
+ consecutive timeouts = 36 [Transmit]
+2019-12-01 20:58:18,673 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS540
+ consecutive timeouts = 37 [Transmit]
+2019-12-01 20:58:20,680 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS519
+ consecutive timeouts = 38 [Transmit]
+2019-12-01 20:58:22,687 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT5
+ consecutive timeouts = 39 [Transmit]
+2019-12-01 20:58:24,694 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS539
+ consecutive timeouts = 40 [Transmit]
+2019-12-01 20:58:26,701 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS520
+ consecutive timeouts = 41 [Transmit]
+2019-12-01 20:58:28,708 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS542
+ consecutive timeouts = 42 [Transmit]
+2019-12-01 20:58:30,715 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT19
+ consecutive timeouts = 43 [Transmit]
+2019-12-01 20:58:32,722 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT58
+ consecutive timeouts = 44 [Transmit]
+2019-12-01 20:58:34,729 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT18
+ consecutive timeouts = 45 [Transmit]
+2019-12-01 20:58:36,735 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT57
+ consecutive timeouts = 46 [Transmit]
+2019-12-01 21:11:36,443 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:11:37,396 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:11:37,444 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:11:37,796 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:11:37 CST 2019 [main]
+2019-12-01 21:11:37,839 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:11:37,868 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:11:37,904 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:11:37,944 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:11:37 CST 2019 [main]
+2019-12-01 21:11:37,976 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:11:52,146 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:11:52,430 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 21:12:20,861 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:12:27,008 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:12:27,029 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:12:27,046 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:12:27,053 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:12:27,070 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:12:27,085 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 21:16:39,813 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:16:40,782 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:16:40,834 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:16:41,176 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:16:41 CST 2019 [main]
+2019-12-01 21:16:41,217 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:16:41,255 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:16:41,288 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:16:41,326 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:16:41 CST 2019 [main]
+2019-12-01 21:16:41,358 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:16:52,946 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:16:53,232 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 21:17:21,522 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:17:27,707 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:17:27,729 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:17:27,742 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:17:27,759 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:17:27,768 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:17:27,789 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 21:21:27,931 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:21:28,916 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:21:28,958 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:21:29,311 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:21:29 CST 2019 [main]
+2019-12-01 21:21:29,357 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:21:29,379 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:21:29,425 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:21:29,460 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:21:29 CST 2019 [main]
+2019-12-01 21:21:29,495 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:21:40,389 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:21:40,666 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 21:22:09,161 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:22:15,334 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:22:15,359 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:22:15,366 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:22:15,379 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:22:15,399 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:22:15,407 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 21:23:14,326 jmrix.AbstractMRTrafficController     ERROR - run: Exception: java.io.IOException: Connection not terminated normally [Receive]
+2019-12-01 21:23:14,328 jmrix.AbstractMRTrafficController     ERROR - run: Exception: java.io.IOException: Connection not terminated normally [Receive]
+2019-12-01 21:23:14,344 jmrix.AbstractMRTrafficController     WARN  - Exception java net: java.io.IOException: Connection not terminated normally [Receive]
+2019-12-01 21:23:14,354 jmrix.AbstractMRTrafficController     WARN  - Exception java net: java.io.IOException: Connection not terminated normally [Receive]
+2019-12-01 21:23:14,359 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop [Receive]
+2019-12-01 21:23:14,363 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop [Receive]
+2019-12-01 21:24:50,645 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:24:51,630 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:24:51,660 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:24:52,033 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:24:51 CST 2019 [main]
+2019-12-01 21:24:52,085 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:24:52,125 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:24:52,157 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:24:52,189 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:24:52 CST 2019 [main]
+2019-12-01 21:24:52,224 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:25:04,474 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:25:04,752 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 21:25:07,569 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 21:25:07,620 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 21:25:33,093 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:25:34,085 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:25:34,129 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:25:34,469 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:25:34 CST 2019 [main]
+2019-12-01 21:25:34,517 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:25:34,532 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:25:34,585 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:25:34,628 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:25:34 CST 2019 [main]
+2019-12-01 21:25:34,655 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:25:54,262 profile.ProfileManagerDialog          INFO  - Automatically starting with profile Network.3ed9c721 after timeout. [AWT-EventQueue-0]
+2019-12-01 21:25:55,092 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:25:55,380 anagers.DefaultUserMessagePreferences INFO  - No saved user preferences file [main]
+2019-12-01 21:25:58,284 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 21:25:58,334 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 21:26:12,205 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 21:26:12,213 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 21:26:38,972 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:26:44,776 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:26:44,781 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:26:44,786 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:26:44,790 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:26:44,794 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:26:44,798 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 21:26:45,478 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
+2019-12-01 21:26:45,743 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS514 needed IS [AWT-EventQueue-0]
+2019-12-01 21:26:45,749 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS514" User name "Real Block 2" [AWT-EventQueue-0]
+2019-12-01 21:26:55,104 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS516 needed IS [AWT-EventQueue-0]
+2019-12-01 21:26:55,136 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS516" User name "Block B4" [AWT-EventQueue-0]
+2019-12-01 21:26:56,925 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS517 needed IS [AWT-EventQueue-0]
+2019-12-01 21:26:56,931 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS517" User name "Real Block B4A" [AWT-EventQueue-0]
+2019-12-01 21:26:57,992 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS518 needed IS [AWT-EventQueue-0]
+2019-12-01 21:26:57,997 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS518" User name "Real Block B5" [AWT-EventQueue-0]
+2019-12-01 21:26:59,061 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS521 needed IS [AWT-EventQueue-0]
+2019-12-01 21:26:59,075 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS521" User name "Real Block 6" [AWT-EventQueue-0]
+2019-12-01 21:27:00,590 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: XS527 needed IS [AWT-EventQueue-0]
+2019-12-01 21:27:00,597 configurexml.ErrorHandler             ERROR - Could not create sensor System name "XS527" User name "Real Block 12" [AWT-EventQueue-0]
+2019-12-01 21:27:01,766 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1001 needed IS [AWT-EventQueue-0]
+2019-12-01 21:27:01,776 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1001" User name "ADM Switch Lock" [AWT-EventQueue-0]
+2019-12-01 21:27:02,977 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1004 needed IS [AWT-EventQueue-0]
+2019-12-01 21:27:02,982 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1004" User name "Brewery Switch Lock" [AWT-EventQueue-0]
+2019-12-01 21:27:04,153 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1005 needed IS [AWT-EventQueue-0]
+2019-12-01 21:27:04,158 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1005" User name "Waycross Yard Crossover Lock" [AWT-EventQueue-0]
+2019-12-01 21:27:05,215 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS1006 needed IS [AWT-EventQueue-0]
+2019-12-01 21:27:05,233 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS1006" User name "Yard Switch Lock" [AWT-EventQueue-0]
+2019-12-01 21:27:06,471 managers.AbstractSensorManager        ERROR - Invalid system name for sensor: CS2003 needed IS [AWT-EventQueue-0]
+2019-12-01 21:27:06,476 configurexml.ErrorHandler             ERROR - Could not create sensor System name "CS2003" User name "Coleman Industrial Lead Lock" [AWT-EventQueue-0]
+2019-12-01 21:27:07,782 managers.AbstractTurnoutManager       ERROR - Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+2019-12-01 21:27:07,812 configurexml.ErrorHandler             ERROR - Unexpected error (Exception) while load(/home/pi/LayoutPanels/LogixForPersLayout.xml) in adaptor of type jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml Exception: java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT [AWT-EventQueue-0]
+java.lang.IllegalArgumentException: Invalid system name for turnout: XT6 needed IT
+	at jmri.managers.AbstractTurnoutManager.newTurnout(AbstractTurnoutManager.java:71)
+	at jmri.managers.ProxyTurnoutManager.makeBean(ProxyTurnoutManager.java:55)
+	at jmri.managers.AbstractProxyManager.newNamedBean(AbstractProxyManager.java:176)
+	at jmri.managers.ProxyTurnoutManager.newTurnout(ProxyTurnoutManager.java:110)
+	at jmri.managers.configurexml.AbstractTurnoutManagerConfigXML.loadTurnouts(AbstractTurnoutManagerConfigXML.java:222)
+	at jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml.load(XNetTurnoutManagerXml.java:33)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:597)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:527)
+	at jmri.configurexml.ConfigXmlManager.load(ConfigXmlManager.java:508)
+	at apps.configurexml.PerformFileModelXml.load(PerformFileModelXml.java:66)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:745)
+	at jmri.configurexml.ConfigXmlManager.loadDeferred(ConfigXmlManager.java:730)
+	at apps.Apps.doDeferredLoad(Apps.java:432)
+	at apps.Apps.access$0(Apps.java:428)
+	at apps.Apps$2.run(Apps.java:333)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-12-01 21:27:19,384 apps.Crandic                          INFO  - main initialization done [main]
+2019-12-01 21:36:27,618 anagers.DefaultUserMessagePreferences INFO  - Storing preferences as part of shutdown [AWT-EventQueue-0]
+2019-12-01 21:36:27,767 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]
+2019-12-01 21:39:51,852 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:39:52,795 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:39:52,826 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:39:53,185 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:39:53 CST 2019 [main]
+2019-12-01 21:39:53,226 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:39:53,241 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:39:53,280 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:39:53,325 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:39:53 CST 2019 [main]
+2019-12-01 21:39:53,365 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:40:04,684 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:40:33,250 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:40:39,152 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:40:39,170 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:40:39,189 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:40:39,200 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:40:39,220 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:40:39,238 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 21:47:56,742 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:47:57,693 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:47:57,743 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:47:58,072 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:47:57 CST 2019 [main]
+2019-12-01 21:47:58,128 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:47:58,158 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:47:58,198 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:47:58,235 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:47:58 CST 2019 [main]
+2019-12-01 21:47:58,252 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:48:09,543 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:48:37,806 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:48:43,689 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:48:43,710 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:48:43,720 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:48:43,741 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:48:43,762 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:48:43,770 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 21:54:53,170 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:54:54,127 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:54:54,164 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:54:54,516 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:54:54 CST 2019 [main]
+2019-12-01 21:54:54,557 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 21:54:54,571 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 21:54:54,624 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 21:54:54,668 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 21:54:54 CST 2019 [main]
+2019-12-01 21:54:54,690 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 21:55:07,208 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 21:55:35,678 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 21:55:41,434 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 21:55:41,454 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:55:41,474 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 21:55:41,482 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 21:55:41,506 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 21:55:41,522 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 22:05:34,133 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:05:35,091 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:05:35,136 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:05:35,480 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:05:35 CST 2019 [main]
+2019-12-01 22:05:35,517 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:05:35,549 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:05:35,594 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:05:35,633 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:05:35 CST 2019 [main]
+2019-12-01 22:05:35,661 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 22:05:48,069 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 22:05:50,986 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 22:05:51,018 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 22:05:56,305 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 22:05:56,338 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 22:07:58,863 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:07:59,844 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:07:59,919 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:08:00,231 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:08:00 CST 2019 [main]
+2019-12-01 22:08:00,288 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:08:00,318 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:08:00,357 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:08:00,395 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:08:00 CST 2019 [main]
+2019-12-01 22:08:00,433 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 22:08:10,971 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 22:08:39,628 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 22:08:45,496 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 22:08:45,521 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 22:08:45,531 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 22:08:45,551 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 22:08:45,571 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 22:08:45,579 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 22:52:00,646 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:52:01,611 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:52:01,633 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:52:01,990 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:52:01 CST 2019 [main]
+2019-12-01 22:52:02,029 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:52:02,069 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:52:02,111 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:52:02,143 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:52:02 CST 2019 [main]
+2019-12-01 22:52:02,182 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 22:52:13,464 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 22:52:16,337 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 22:52:16,369 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 22:52:20,723 jmrix.AbstractNetworkPortController   ERROR - error opening network connection: java.net.ConnectException: Connection refused [main]
+2019-12-01 22:52:20,739 configurexml.ErrorHandler             ERROR - Connection refused while opening connection [main]
+2019-12-01 22:52:47,066 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 22:52:52,755 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 22:52:52,762 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 22:52:52,767 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 22:52:52,771 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 22:52:52,776 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 22:52:52,780 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
+2019-12-01 22:56:02,333 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:56:03,331 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:56:03,377 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:56:03,711 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:56:03 CST 2019 [main]
+2019-12-01 22:56:03,768 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2019-12-01 22:56:03,799 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2019-12-01 22:56:03,837 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2019-12-01 22:56:03,876 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Sun Dec 01 22:56:03 CST 2019 [main]
+2019-12-01 22:56:03,910 apps.Crandic                          INFO  - CATS version 2.34 [main]
+2019-12-01 22:56:15,428 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
+2019-12-01 22:56:43,497 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
+2019-12-01 22:56:49,323 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
+2019-12-01 22:56:49,341 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
+2019-12-01 22:56:49,362 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
+2019-12-01 22:56:49,382 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
+2019-12-01 22:56:49,401 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
+2019-12-01 22:56:49,419 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]

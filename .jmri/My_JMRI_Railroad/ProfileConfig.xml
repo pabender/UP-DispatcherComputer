@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>3</major>
+    <minor>10</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <gui LAFclass="Metal" class="apps.configurexml.GuiLafConfigPaneXml" LocaleLanguage="en" LocaleCountry="US" LocaleVariant="" nonStandardMouseEvent="no" />
+  <connection userName="XPressnet" systemPrefix="X" disabled="no" class="jmri.jmrix.lenz.xnetsimulator.configurexml.ConnectionConfigXml">
+    <options />
+  </connection>
+  <connection manufacturer="C/MRI" disabled="no" port="(none selected)" speed="9,600 baud" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml">
+    <options />
+    <node name="0">
+      <parameter name="nodetype">1</parameter>
+      <parameter name="bitspercard">24</parameter>
+      <parameter name="transmissiondelay">0</parameter>
+      <parameter name="num2lsearchlights">0</parameter>
+      <parameter name="pulsewidth">500</parameter>
+      <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
+      <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+    </node>
+    <node name="1">
+      <parameter name="nodetype">1</parameter>
+      <parameter name="bitspercard">24</parameter>
+      <parameter name="transmissiondelay">0</parameter>
+      <parameter name="num2lsearchlights">0</parameter>
+      <parameter name="pulsewidth">500</parameter>
+      <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
+      <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+    </node>
+    <node name="2">
+      <parameter name="nodetype">1</parameter>
+      <parameter name="bitspercard">24</parameter>
+      <parameter name="transmissiondelay">0</parameter>
+      <parameter name="num2lsearchlights">0</parameter>
+      <parameter name="pulsewidth">500</parameter>
+      <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
+      <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+    </node>
+  </connection>
+  <fileLocations class="apps.configurexml.FileLocationPaneXml">
+    <fileLocation defaultScriptLocation="program:jython/" />
+    <fileLocation defaultUserLocation="profile:" />
+  </fileLocations>
+  <console class="apps.configurexml.SystemConsoleConfigPanelXml" scheme="0" fontfamily="Monospaced" fontsize="12" fontstyle="0" wrapstyle="2" />
+  <programmer verifyBeforeWrite="no" class="jmri.jmrit.symbolicprog.configurexml.ProgrammerConfigPaneXml" />
+  <managerdefaults class="jmri.managers.configurexml.ManagerDefaultSelectorXml">
+    <setting>
+      <key>jmri.ThrottleManager</key>
+      <value>XPressnet</value>
+    </setting>
+    <setting>
+      <key>jmri.PowerManager</key>
+      <value>XPressnet</value>
+    </setting>
+    <setting>
+      <key>jmri.ProgrammerManager</key>
+      <value>XPressnet</value>
+    </setting>
+    <setting>
+      <key>jmri.CommandStation</key>
+      <value>XPressnet</value>
+    </setting>
+  </managerdefaults>
+  <perform name="home:LayoutPanels/LogixForPersLayout.xml" type="XmlFile" class="apps.configurexml.PerformFileModelXml" />
+  <!--Written by JMRI version 3.10.1-r28327 on Tue Apr 07 22:18:40 CDT 2015 $Id: XmlFile.java 27564 2014-11-01 05:08:01Z jacobsen $-->
+</layout-config>
+
