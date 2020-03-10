@@ -3,6 +3,7 @@
   <profiles>
     <profile id="My_JMRI_Railroad.3f1df98b" path="settings:My_JMRI_Railroad/" />
     <profile id="Network.3ed9c721" path="settings:Network/" />
+    <profile id="Li100FANDCMRIVIANETWORK.3f5ed7be" path="settings:Li100FANDCMRIVIANETWORK/" />
   </profiles>
   <searchPaths>
     <path path="settings:" />

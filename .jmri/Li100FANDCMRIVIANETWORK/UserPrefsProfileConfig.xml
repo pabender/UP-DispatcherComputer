@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>3</major>
+    <minor>10</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <UserMessagePreferences class="jmri.managers.configurexml.DefaultUserMessagePreferencesXml">
+    <windowDetails class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors">
+      <locX>168.0</locX>
+      <locY>379.0</locY>
+    </windowDetails>
+    <windowDetails class="apps.gui3.TabbedPreferencesAction$1:Preferences">
+      <locX>0.0</locX>
+      <locY>27.0</locY>
+      <width>915.0</width>
+      <height>461.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.Roster">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <properties>
+        <property>
+          <key class="java.lang.String">defaultRosterGroup</key>
+        </property>
+      </properties>
+    </windowDetails>
+    <windowDetails class="jmri.jmrix.jmriclient.swing.mon.JMRIClientMonFrame:1">
+      <locX>115.0</locX>
+      <locY>492.0</locY>
+      <width>897.0</width>
+      <height>321.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrix.jmriclient.swing.mon.JMRIClientMonFrame">
+      <locX>744.0</locX>
+      <locY>71.0</locY>
+      <width>897.0</width>
+      <height>321.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts:1">
+      <locX>135.0</locX>
+      <locY>291.0</locY>
+      <width>1756.0</width>
+      <height>792.0</height>
+    </windowDetails>
+  </UserMessagePreferences>
+  <!--Written by JMRI version 3.10.1-r28327 on Sun Mar 08 21:26:26 CDT 2020 $Id: XmlFile.java 27564 2014-11-01 05:08:01Z jacobsen $-->
+</layout-config>
+
