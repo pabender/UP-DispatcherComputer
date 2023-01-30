@@ -1,161 +1,98 @@
-2020-01-28 23:14:14,129 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
-2020-01-28 23:14:15,357 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
-2020-01-28 23:14:15,425 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
-2020-01-28 23:14:15,839 apps.Apps                             INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Jan 28 23:14:15 CST 2020 [main]
-2020-01-28 23:14:15,927 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
-2020-01-28 23:14:15,962 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
-2020-01-28 23:14:16,108 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
-2020-01-28 23:14:16,239 apps.Crandic                          INFO  - JMRI version 3.10.1-r28327 starts under Java 1.8.0 at Tue Jan 28 23:14:16 CST 2020 [main]
-2020-01-28 23:14:16,315 apps.Crandic                          INFO  - CATS version 2.34 [main]
-2020-01-28 23:14:33,372 apps.Apps                             INFO  - Starting with profile Network.3ed9c721 [main]
-2020-01-28 23:15:05,451 progsupport.ProgServiceModeComboBox   INFO  - No programmer available, so modes not set [main]
-2020-01-28 23:15:11,773 util.FileUtil                         INFO  - File path program: is /home/pi/JMRI/ [main]
-2020-01-28 23:15:11,836 util.FileUtil                         INFO  - File path preference: is /home/pi/.jmri/Network/ [main]
-2020-01-28 23:15:11,868 util.FileUtil                         INFO  - File path profile: is /home/pi/.jmri/Network/ [main]
-2020-01-28 23:15:11,937 util.FileUtil                         INFO  - File path settings: is /home/pi/.jmri/ [main]
-2020-01-28 23:15:11,994 util.FileUtil                         INFO  - File path home: is /home/pi/ [main]
-2020-01-28 23:15:12,057 util.FileUtil                         INFO  - File path scripts: is /home/pi/JMRI/jython/ [main]
-2020-01-28 23:15:13,577 configurexml.PerformFileModelXml      INFO  - Load file /home/pi/LayoutPanels/LogixForPersLayout.xml [AWT-EventQueue-0]
-2020-01-28 23:15:15,470 apps.Crandic                          INFO  - main initialization done [main]
-2020-01-28 23:15:16,785 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS517
- consecutive timeouts = 0 [Transmit]
-2020-01-28 23:15:18,854 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS518
- consecutive timeouts = 1 [Transmit]
-2020-01-28 23:15:20,924 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS521
- consecutive timeouts = 2 [Transmit]
-2020-01-28 23:15:22,930 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS527
- consecutive timeouts = 3 [Transmit]
-2020-01-28 23:15:24,987 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT6
- consecutive timeouts = 4 [Transmit]
-2020-01-28 23:15:43,989 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
-2020-01-28 23:16:27,935 audio.NullAudioFactory                WARN  - Initialised Null audio system - no sounds will be available. [Listed Table Generation]
-2020-01-28 23:20:47,878 configurexml.ConfigXmlManager         WARN  - Could not locate file C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml [AWT-EventQueue-0]
-2020-01-28 23:20:47,901 apps.Crandic                          WARN  - Could not find C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml config file [AWT-EventQueue-0]
-2020-01-28 23:20:54,870 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
-2020-01-28 23:20:54,903 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
-2020-01-28 23:20:54,917 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
-2020-01-28 23:20:55,008 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
-2020-01-28 23:20:55,036 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
-2020-01-28 23:20:55,056 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
-2020-01-28 23:20:57,536 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT52
- consecutive timeouts = 0 [Transmit]
-2020-01-28 23:20:59,542 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT51
- consecutive timeouts = 1 [Transmit]
-2020-01-28 23:21:01,554 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT50
- consecutive timeouts = 2 [Transmit]
-2020-01-28 23:21:03,562 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT49
- consecutive timeouts = 3 [Transmit]
-2020-01-28 23:21:05,569 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT54
- consecutive timeouts = 4 [Transmit]
-2020-01-28 23:21:07,597 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT55
- consecutive timeouts = 5 [Transmit]
-2020-01-28 23:21:09,614 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT41
- consecutive timeouts = 6 [Transmit]
-2020-01-28 23:21:11,624 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT43
- consecutive timeouts = 7 [Transmit]
-2020-01-28 23:21:13,644 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT45
- consecutive timeouts = 8 [Transmit]
-2020-01-28 23:21:15,654 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT47
- consecutive timeouts = 9 [Transmit]
-2020-01-28 23:21:17,664 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT28
- consecutive timeouts = 10 [Transmit]
-2020-01-28 23:21:18,475 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
-2020-01-28 23:21:20,526 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT35
- consecutive timeouts = 0 [Transmit]
-2020-01-28 23:21:22,544 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT44
- consecutive timeouts = 1 [Transmit]
-2020-01-28 23:21:24,578 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT48
- consecutive timeouts = 2 [Transmit]
-2020-01-28 23:21:26,607 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT46
- consecutive timeouts = 3 [Transmit]
-2020-01-28 23:21:28,624 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT27
- consecutive timeouts = 4 [Transmit]
-2020-01-28 23:21:30,644 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT29
- consecutive timeouts = 5 [Transmit]
-2020-01-28 23:21:32,654 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT32
- consecutive timeouts = 6 [Transmit]
-2020-01-28 23:21:34,664 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT34
- consecutive timeouts = 7 [Transmit]
-2020-01-28 23:21:36,674 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT25
- consecutive timeouts = 8 [Transmit]
-2020-01-28 23:21:38,682 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT1
- consecutive timeouts = 9 [Transmit]
-2020-01-28 23:21:40,703 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT3
- consecutive timeouts = 10 [Transmit]
-2020-01-28 23:21:42,710 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT2
- consecutive timeouts = 11 [Transmit]
-2020-01-28 23:21:44,717 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT33
- consecutive timeouts = 12 [Transmit]
-2020-01-28 23:21:46,734 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT31
- consecutive timeouts = 13 [Transmit]
-2020-01-28 23:21:48,492 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
-2020-01-28 23:21:50,665 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT38
- consecutive timeouts = 0 [Transmit]
-2020-01-28 23:21:52,677 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT37
- consecutive timeouts = 1 [Transmit]
-2020-01-28 23:21:54,694 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT36
- consecutive timeouts = 2 [Transmit]
-2020-01-28 23:21:56,714 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT42
- consecutive timeouts = 3 [Transmit]
-2020-01-28 23:21:58,724 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS531
- consecutive timeouts = 4 [Transmit]
-2020-01-28 23:22:00,744 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT21
- consecutive timeouts = 5 [Transmit]
-2020-01-28 23:22:02,754 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT62
- consecutive timeouts = 6 [Transmit]
-2020-01-28 23:22:04,764 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT22
- consecutive timeouts = 7 [Transmit]
-2020-01-28 23:22:06,770 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT61
- consecutive timeouts = 8 [Transmit]
-2020-01-28 23:22:08,798 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS541
- consecutive timeouts = 9 [Transmit]
-2020-01-28 23:22:10,814 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS529
- consecutive timeouts = 10 [Transmit]
-2020-01-28 23:22:12,824 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS532
- consecutive timeouts = 11 [Transmit]
-2020-01-28 23:22:14,833 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS515
- consecutive timeouts = 12 [Transmit]
-2020-01-28 23:22:16,853 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS525
- consecutive timeouts = 13 [Transmit]
-2020-01-28 23:22:18,506 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
-2020-01-28 23:22:20,701 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS530
- consecutive timeouts = 0 [Transmit]
-2020-01-28 23:22:22,729 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS522
- consecutive timeouts = 1 [Transmit]
-2020-01-28 23:22:24,756 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT9
- consecutive timeouts = 2 [Transmit]
-2020-01-28 23:22:26,774 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS523
- consecutive timeouts = 3 [Transmit]
-2020-01-28 23:22:28,794 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS524
- consecutive timeouts = 4 [Transmit]
-2020-01-28 23:22:30,800 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT13
- consecutive timeouts = 5 [Transmit]
-2020-01-28 23:22:32,829 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS526
- consecutive timeouts = 6 [Transmit]
-2020-01-28 23:22:34,836 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT14
- consecutive timeouts = 7 [Transmit]
-2020-01-28 23:22:36,841 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS537
- consecutive timeouts = 8 [Transmit]
-2020-01-28 23:22:38,848 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS538
- consecutive timeouts = 9 [Transmit]
-2020-01-28 23:22:40,875 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT17
- consecutive timeouts = 10 [Transmit]
-2020-01-28 23:22:42,917 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS540
- consecutive timeouts = 11 [Transmit]
-2020-01-28 23:22:44,933 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS519
- consecutive timeouts = 12 [Transmit]
-2020-01-28 23:22:46,944 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT5
- consecutive timeouts = 13 [Transmit]
-2020-01-28 23:22:48,522 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [Receive]
-2020-01-28 23:22:50,811 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS520
- consecutive timeouts = 0 [Transmit]
-2020-01-28 23:22:52,846 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: SENSOR XS542
- consecutive timeouts = 1 [Transmit]
-2020-01-28 23:22:54,852 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT19
- consecutive timeouts = 2 [Transmit]
-2020-01-28 23:22:56,864 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT58
- consecutive timeouts = 3 [Transmit]
-2020-01-28 23:22:58,873 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT18
- consecutive timeouts = 4 [Transmit]
-2020-01-28 23:23:00,879 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT XT57
- consecutive timeouts = 5 [Transmit]
+2023-01-30 12:36:27,887 util.Log4JUtil                        INFO  - ****** JMRI log ******* [main]
+2023-01-30 12:36:27,898 util.Log4JUtil                        INFO  - This log is appended to file: /home/pi/.jmri/log/messages.log [main]
+2023-01-30 12:36:27,899 util.Log4JUtil                        INFO  - This log is stored in file: /home/pi/.jmri/log/session.log [main]
+2023-01-30 12:36:27,941 apps.Apps                             INFO  - CATS version 4.26+R381c8dfc32 starts under Java 11.0.16 on Linux aarch64 v5.15.84-v8+ at Mon Jan 30 12:36:27 CST 2023 [main]
+2023-01-30 12:36:27,942 apps.Crandic                          INFO  - CATS version 2.43 [main]
+2023-01-30 12:36:32,542 apps.Apps                             INFO  - Starting with profile Li100FANDCMRIVIANETWORK.3f5ed7be [main]
+2023-01-30 12:36:32,768 node.NodeIdentity                     INFO  - Using jmri-gIMLeXFTbhSiaa1kyXnWLA-3f5ed7be as the JMRI storage identity for profile id 3f5ed7be [AWT-EventQueue-0]
+2023-01-30 12:36:33,126 xml.AbstractSerialConnectionConfigXml INFO  - Starting to connect for "XpressNet" [main]
+2023-01-30 12:36:33,129 jmrix.AbstractSerialPortController    WARN  - old profile format port speed value converted [main]
+2023-01-30 12:36:33,659 li100.LI100Adapter                    INFO  - ttyUSB0 port opened at 9600 baud with DTR: true RTS: true DSR: true CTS: true  CD: true [main]
+2023-01-30 12:36:37,103 startup.PerformFileModel              INFO  - Loading file /home/pi/LayoutPanels/LogixForPersLayout.xml [main]
+2023-01-30 12:36:45,299 util.FileUtilSupport                  INFO  - File path program: is /home/pi/JMRI/ [main]
+2023-01-30 12:36:45,299 util.FileUtilSupport                  INFO  - File path preference: is /home/pi/.jmri/Li100FANDCMRIVIANETWORK/ [main]
+2023-01-30 12:36:45,300 util.FileUtilSupport                  INFO  - File path profile: is /home/pi/.jmri/Li100FANDCMRIVIANETWORK/ [main]
+2023-01-30 12:36:45,301 util.FileUtilSupport                  INFO  - File path settings: is /home/pi/.jmri/ [main]
+2023-01-30 12:36:45,301 util.FileUtilSupport                  INFO  - File path home: is /home/pi/ [main]
+2023-01-30 12:36:45,302 util.FileUtilSupport                  INFO  - File path scripts: is /home/pi/.jmri/Li100FANDCMRIVIANETWORK/ [main]
+2023-01-30 12:37:07,350 apps.Crandic                          INFO  - main initialization done [main]
+2023-01-30 12:37:41,262 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:38:47,316 configurexml.ConfigXmlManager         WARN  - Could not locate file C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml [AWT-EventQueue-0]
+2023-01-30 12:38:47,317 apps.Crandic                          WARN  - Could not find C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml JMRI panel file [AWT-EventQueue-0]
+2023-01-30 12:39:51,893 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:39:53,016 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:40:43,745 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1033 THROWN
+ consecutive timeouts = 0 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:45,746 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1015 THROWN
+ consecutive timeouts = 1 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:47,748 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1018 THROWN
+ consecutive timeouts = 2 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:49,749 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1036 THROWN
+ consecutive timeouts = 3 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:51,751 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1021 THROWN
+ consecutive timeouts = 4 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:53,754 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1024 THROWN
+ consecutive timeouts = 5 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:55,757 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1027 THROWN
+ consecutive timeouts = 6 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:57,759 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1039 THROWN
+ consecutive timeouts = 7 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:40:59,761 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1042 THROWN
+ consecutive timeouts = 8 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:01,763 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1045 THROWN
+ consecutive timeouts = 9 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:03,764 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1048 THROWN
+ consecutive timeouts = 10 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:05,766 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2009 THROWN
+ consecutive timeouts = 11 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:07,768 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2012 THROWN
+ consecutive timeouts = 12 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:09,769 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2018 THROWN
+ consecutive timeouts = 13 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:11,771 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2015 THROWN
+ consecutive timeouts = 14 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:41:11,777 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:41:13,774 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2024 THROWN
+ consecutive timeouts = 15 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:43:22,837 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:43:23,957 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:43:23,961 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:43:26,010 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2033 THROWN
+ consecutive timeouts = 0 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:43:28,011 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2036 THROWN
+ consecutive timeouts = 1 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:43:30,013 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2038 THROWN
+ consecutive timeouts = 2 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:43:32,015 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT2042 THROWN
+ consecutive timeouts = 3 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:43:32,021 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:43:40,038 jmrix.AbstractMRTrafficController     WARN  - Timeout on reply to message: TURNOUT CT1005 THROWN
+ consecutive timeouts = 0 in jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Transmit thread]
+2023-01-30 12:43:40,041 jmrix.AbstractMRTrafficController     WARN  - timeout flushes receive buffer:  [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:44:14,548 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:46:25,108 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:46:26,230 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:46:56,553 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:49:06,900 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:49:08,024 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:49:38,401 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:51:48,693 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:51:49,817 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:52:21,789 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:54:32,532 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:54:33,655 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:55:08,124 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 12:57:18,421 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:57:19,542 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 12:57:49,813 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 13:00:00,212 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 13:00:01,334 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 13:00:03,200 audio.JoalAudioFactory                INFO  - Initialised JOAL using OpenAL: vendor - OpenAL Community version - 1.1 ALSOFT 1.20.0 [Listed Table Generation]
+2023-01-30 13:01:09,845 jmrix.AbstractMRTrafficController     ERROR - Exit from rcv loop in class jmri.jmrix.jmriclient.JMRIClientTrafficController [jmriclient.JMRIClientTrafficController Receive thread]
+2023-01-30 13:01:23,848 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2023-01-30 13:02:42,580 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2023-01-30 13:03:20,917 jmrix.AbstractNetworkPortController   ERROR - Error opening network connection: Connection timed out (Connection timed out) [Connection Recovery communicationspi.local.:2048]
+2023-01-30 13:03:22,039 jmrix.AbstractPortController          INFO  - Reconnected to communicationspi.local.:2048 [Connection Recovery communicationspi.local.:2048]
+2023-01-30 13:03:22,226 jmri.HWSignalHead                     WARN  - A SignalHead is missing the decoder definitions for off [AWT-EventQueue-0]
+2023-01-30 13:03:28,409 audio.DefaultAudioManager             INFO  - Shutting down active AudioFactory [On Start/Stop]
+2023-01-30 13:03:28,517 managers.DefaultShutDownManager       INFO  - Normal termination complete [AWT-EventQueue-0]

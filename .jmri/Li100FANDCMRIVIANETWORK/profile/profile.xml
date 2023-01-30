@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.lenz.li100.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Lenz" port="ttyUSB0" speed="9,600 bps" systemPrefix="X" userName="XpressNet">
+            <options>
+                <option>
+                    <name>FlowControl</name>
+                    <value>hardware flow control (recommended)</value>
+                </option>
+            </options>
+        </connection>
+        <connection xmlns="" address="communicationspi.local." class="jmri.jmrix.jmriclient.networkdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="JMRI (Network)" mdnsConfigure="false" port="2048" systemPrefix="C" transmitPrefix="C" userName="CMRI">
+            <options/>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="home:LayoutPanels/LogixForPersLayout.xml" type="XmlFile"/>
+    </startup>
+</auxiliary-configuration>
