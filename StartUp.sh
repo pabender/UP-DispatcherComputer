@@ -8,8 +8,8 @@ unset ftp_proxy
 #sudo ip address add 192.168.1.99/24 dev eth0
 
 #run updates
-cd /home/pi
+cd /home/`whoami`
 ./update.sh
 
-./StartHeadedApp.sh
+./StartUp-HeadedApp.sh
 

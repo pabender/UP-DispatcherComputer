@@ -9,9 +9,9 @@ unset ftp_proxy
 #curl https://www.dataplicity.com/fz6048no.py | sudo python
 #sudo ln -s /usr/lib/systemd/system/vncserver-x11-serviced.service /etc/systemd/system/multi-user.target.wants/vncserver-x11-serviced.service
 
-cd /home/pi
+cd /home/`whoami`
 ./update.sh
 
-cd /home/pi/JMRI
+cd /home/`whoami`/JMRI
 #./PanelPro
 ./cats.csh

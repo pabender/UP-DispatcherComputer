@@ -27,12 +27,12 @@ else
 	tar xvzf JMRI.4.26+R381c8dfc32.tgz
 
 	#get cats
-        cd /home/pi
+        cd /home/`whoami`
         wget http://cats4ctc.wikidot.com/local--files/main:downloads/release2046.zip 
 
         cd JMRI
-        unzip /home/pi/release2046.zip
-        cd /home/pi
+        unzip /home/`whoami`/release2046.zip
+        cd /home/`whoami`
         chmod +x JMRI/cats.csh
         rm release2046.zip
 	echo "" > redownloaded 
