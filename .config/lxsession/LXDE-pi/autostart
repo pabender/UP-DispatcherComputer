@@ -1,2 +1,6 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
 @/home/cats/cats.desktop
 @/usr/share/applications/com.teamviewer.TeamViewer-Host.desktop
