@@ -45,20 +45,20 @@
     </sensor>
   </sensors>
   <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
-    <sensor systemName="CS1001" inverted="false" userName="ADM Switch Lock">
-      <systemName>CS1001</systemName>
+    <sensor systemName="CS1002" inverted="false" userName="ADM Switch Lock">
+      <systemName>CS1002</systemName>
       <userName>ADM Switch Lock</userName>
     </sensor>
-    <sensor systemName="CS1004" inverted="false" userName="Brewery Switch Lock">
-      <systemName>CS1004</systemName>
+    <sensor systemName="CS1005" inverted="false" userName="Brewery Switch Lock">
+      <systemName>CS1005</systemName>
       <userName>Brewery Switch Lock</userName>
     </sensor>
-    <sensor systemName="CS1005" inverted="false" userName="Waycross Yard Crossover Lock">
-      <systemName>CS1005</systemName>
+    <sensor systemName="CS1006" inverted="false" userName="Waycross Yard Crossover Lock">
+      <systemName>CS1006</systemName>
       <userName>Waycross Yard Crossover Lock</userName>
     </sensor>
-    <sensor systemName="CS1006" inverted="false" userName="Yard Switch Lock">
-      <systemName>CS1006</systemName>
+    <sensor systemName="CS1007" inverted="false" userName="Yard Switch Lock">
+      <systemName>CS1007</systemName>
       <userName>Yard Switch Lock</userName>
     </sensor>
     <sensor systemName="CS2003" inverted="false" userName="Coleman Industrial Lead Lock">
