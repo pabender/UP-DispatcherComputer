@@ -3763,23 +3763,23 @@
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch  6">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4088,23 +4088,23 @@
       <SEC_EDGE EDGE="RIGHT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="BOTTOM">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -4352,23 +4352,23 @@
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4517,23 +4517,23 @@
       <SEC_EDGE EDGE="RIGHT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4595,7 +4595,7 @@
       </TRACKGROUP>
       <SEC_EDGE EDGE="RIGHT" />
       <SEC_EDGE EDGE="LEFT">
-        <BLOCK NAME="B14" STATION="Smithville Jct." DISCIPLINE="CTC" VISIBLE="true">
+        <BLOCK NAME="B14" STATION="Smithville Jct." DISCIPLINE="APB-2" VISIBLE="true">
           <OCCUPIEDSPEC>
             <IOSPEC DECADDR="537" JMRIPREFIX="XS" EXIT_CMD="true" USER_NAME="Block 14">close</IOSPEC>
           </OCCUPIEDSPEC>
@@ -4698,23 +4698,23 @@
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4983,23 +4983,23 @@
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="RIGHT">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -5044,23 +5044,23 @@
       <SEC_EDGE EDGE="RIGHT">
         <SWITCHPOINTS>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP">
+            <ROUTEREQUEST>
+              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
+            </ROUTEREQUEST>
             <SELECTEDREPORT>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </ROUTECOMMAND>
