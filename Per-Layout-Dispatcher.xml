@@ -3766,9 +3766,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -3777,9 +3774,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4091,9 +4085,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1008" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1008" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4102,9 +4093,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1008" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1008" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -4355,9 +4343,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -4366,9 +4351,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4520,9 +4502,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -4531,9 +4510,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4701,9 +4677,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -4712,9 +4685,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4986,9 +4956,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4997,9 +4964,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -5047,9 +5011,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -5058,9 +5019,6 @@
             <SELECTEDREPORT>
               <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </ROUTECOMMAND>

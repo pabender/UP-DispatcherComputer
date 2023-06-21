@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DOCUMENT VERSION="2.10" WIDTH="600" HEIGHT="400" X="0" Y="0" INCLUDEFILE="C:\Documents and Settings\Per Laursen\JMRI\LogixForPersLayout.xml">
+<DOCUMENT VERSION="2.16" WIDTH="600" HEIGHT="400" X="0" Y="0" INCLUDEFILE="/home/cats/LayoutPanels/LogixForPersLayout.xml">
   <FONTDEFINITION FONTKEY="FONT_LABEL" FONTNAME="Grid Labels" FONTCOLOR="-1" FONTSIZE="13" FONTSTYLE="PLAIN" />
   <FONTDEFINITION FONTKEY="FONT_TRAIN" FONTNAME="Train Identities" FONTCOLOR="-1" FONTSIZE="13" FONTSTYLE="PLAIN" />
   <FONTDEFINITION FONTKEY="ONCALL" FONTNAME="On Call Train" FONTCOLOR="-4144960" FONTSIZE="13" FONTSTYLE="PLAIN" />
@@ -9,12 +9,9 @@
   <LINE />
   <COUNTER NAME="REFRESH" VALUE="1" />
   <COUNTER NAME="LNGOVERNOR" VALUE="1" />
-  <COUNTER NAME="DEBOUNCE" VALUE="0" />
+  <COUNTER NAME="DEBOUNCE" VALUE="2" />
   <SIGNALTEMPLATE TEMPLATEKIND="Lamp" TEMPLATEHEADS="1" TEMPLATENAME="Hood 1-head">
     <ASPECTMAP R281="green" R281B="green" R282="green" R284="green" R285="yellow" R281C="green" C412="green" C413="green" C414="green" R281D="yellow" R283="green" C417="green" R283A="green" R283B="green" R286="yellow" R287="green" C422="green" C423="green" C424="green" R288="yellow" R290="red" R292="red" R291="red" ADV_NORM="green" ADV_LIM="green" ADV_MED="green" ADV_SLO="green" />
-  </SIGNALTEMPLATE>
-  <SIGNALTEMPLATE TEMPLATEKIND="Lamp" TEMPLATEHEADS="1" TEMPLATENAME="1 head Intermediate">
-    <ASPECTMAP R281="green" R281B="green" R282="green" R284="green" R285="yellow" R281C="green" C412="green" C413="green" C414="green" R281D="yellow" R283="green" C417="green" R283A="green" R283B="green" R286="yellow" R287="green" C422="green" C423="green" C424="green" R288="yellow" R290="red" R292="red" R291="red" ADV_NORM="green" ADV_LIM="green" ADV_MED="green" ADV_SLO="green" APPROACH="true" />
   </SIGNALTEMPLATE>
   <SIGNALTEMPLATE TEMPLATEKIND="Lamp" TEMPLATEHEADS="2" TEMPLATENAME="Hood 2-head">
     <ASPECTMAP R281="green|red" R281B="green|red" R282="yellow|yellow" R284="yellow|yellow" R285="yellow|red" R281C="green|red" C412="green|red" C413="yellow|yellow" C414="yellow|yellow" R281D="yellow|red" R283="red|green" C417="red|green" R283A="red|green" R283B="red|green" R286="red|yellow" R287="red|green" C422="red|green" C423="red|green" C424="red|green" R288="red|yellow" R290="red|flashing red" R292="red|red" R291="red|red" ADV_NORM="yellow|yellow" ADV_LIM="yellow|yellow" ADV_MED="red|green" ADV_SLO="red|green" />
@@ -25,13 +22,21 @@
   <SIGNALTEMPLATE TEMPLATEKIND="Lamp" TEMPLATEHEADS="2" TEMPLATENAME="2-HeadWithAdvancedApproach">
     <ASPECTMAP R281="green|red" R281B="green|red" R282="yellow|yellow" R284="yellow|yellow" R285="yellow|red" R281C="green|red" C412="green|red" C413="yellow|yellow" C414="yellow|yellow" R281D="yellow|red" R283="red|green" C417="red|green" R283A="red|green" R283B="red|green" R286="red|yellow" R287="red|green" C422="red|green" C423="red|flashing yellow" C424="red|flashing yellow" R288="red|yellow" R290="red|flashing red" R292="red|red" R291="red|red" ADV_NORM="yellow|yellow" ADV_LIM="yellow|yellow" ADV_MED="red|flashing yellow" ADV_SLO="red|green" />
   </SIGNALTEMPLATE>
+  <SIGNALTEMPLATE TEMPLATEKIND="Lamp" TEMPLATEHEADS="1" TEMPLATENAME="1 head Intermediate">
+    <ASPECTMAP R281="green" R281B="green" R282="yellow" R284="yellow" R285="yellow" R281C="green" C412="green" C413="green" C414="green" R281D="yellow" R283="green" C417="green" R283A="yellow" R283B="yellow" R286="yellow" R287="green" C422="green" C423="yellow" C424="yellow" R288="yellow" R290="red" R292="red" R291="red" ADV_NORM="green" ADV_LIM="green" ADV_MED="green" ADV_SLO="green" APPROACH="true" />
+  </SIGNALTEMPLATE>
   <TRAINSTORE>
     <TRAINEDIT>
+      <EDITRECORD FIELD_KEY="AUTOTERMINATE" FIELD_VISIBLE="false" FIELDLABEL="AUTOTERMINATE" FIELD_EDIT="true" FIELD_MANDATORY="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="false" FIELD_CLASS="Boolean" />
+      <EDITRECORD FIELD_KEY="LABELBACKGROUND" FIELD_VISIBLE="false" FIELDLABEL="LABELBACKGROUND" FIELD_EDIT="true" FIELD_MANDATORY="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="false" FIELD_CLASS="Boolean" />
+      <EDITRECORD FIELD_KEY="LENGTH" FIELD_VISIBLE="false" FIELDLABEL="LENGTH" FIELD_EDIT="true" FIELD_MANDATORY="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="0" FIELD_CLASS="Integer" />
+      <EDITRECORD FIELD_KEY="WEIGHT" FIELD_VISIBLE="false" FIELDLABEL="WEIGHT" FIELD_EDIT="true" FIELD_MANDATORY="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="0" FIELD_CLASS="Integer" />
+      <EDITRECORD FIELD_KEY="CARS" FIELD_VISIBLE="false" FIELDLABEL="CARS" FIELD_EDIT="true" FIELD_MANDATORY="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="0" FIELD_CLASS="Integer" />
       <EDITRECORD FIELD_KEY="FONT" FIELD_VISIBLE="true" FIELDLABEL="FONT" FIELD_EDIT="true" FIELD_MANDATORY="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="FONT_LABEL" FIELD_CLASS="FontSpec" />
       <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="TRAIN_SYMBOL" FIELD_VISIBLE="true" FIELDLABEL="TRAIN_SYMBOL" FIELD_EDIT="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="String" />
       <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="TRAIN_NAME" FIELD_VISIBLE="true" FIELDLABEL="TRAIN_NAME" FIELD_EDIT="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="String" />
       <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="ENGINE" FIELD_VISIBLE="true" FIELDLABEL="ENGINE" FIELD_EDIT="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="String" />
-      <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="TRANSPONDING" FIELD_VISIBLE="true" FIELDLABEL="TRANSPONDING" FIELD_EDIT="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="true" FIELD_CLASS="Boolean" />
+      <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="TRANSPONDING" FIELD_VISIBLE="true" FIELDLABEL="TRANSPONDING" FIELD_EDIT="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="String" />
       <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="CABOOSE" FIELD_VISIBLE="true" FIELDLABEL="CABOOSE" FIELD_EDIT="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="String" />
       <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="CREW" FIELD_VISIBLE="true" FIELDLABEL="CREW" FIELD_EDIT="true" FIELD_WIDTH="75" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="ExtraList" />
       <EDITRECORD FIELD_MANDATORY="true" FIELD_KEY="ONDUTY" FIELD_VISIBLE="true" FIELDLABEL="ONDUTY" FIELD_EDIT="true" FIELD_WIDTH="50" ALIGNMENT="CENTER" FIELD_DEFAULT="" FIELD_CLASS="TimeSpec" />
@@ -67,18 +72,55 @@
   <COLORDEFINITION COLORKEY="DEPOT" COLORNAME="Depot" COLORTAG="-16711681" />
   <COLORDEFINITION COLORKEY="NO_ROUTE" COLORNAME="Idle Aspect" COLORTAG="-1" />
   <COLORDEFINITION COLORKEY="STOP" COLORNAME="Stop Aspect" COLORTAG="-65536" />
+  <COLORDEFINITION COLORKEY="RESTRICTING" COLORNAME="Restricting Aspect" COLORTAG="-65536" />
+  <COLORDEFINITION COLORKEY="CALLON" COLORNAME="Call-on Aspect" COLORTAG="-65536" />
   <COLORDEFINITION COLORKEY="APPROACH" COLORNAME="Approach Aspect" COLORTAG="-256" />
   <COLORDEFINITION COLORKEY="CLEAR" COLORNAME="Clear Aspect" COLORTAG="-16711936" />
   <COLORDEFINITION COLORKEY="NOSIGNAL" COLORNAME="No Physical Signal" COLORTAG="-8355712" />
   <COLORDEFINITION COLORKEY="BACKGROUND" COLORNAME="Background" COLORTAG="-16777216" />
+  <COLORDEFINITION COLORKEY="LABELBACKGROUND" COLORNAME="Label Background" COLORTAG="-16777216" />
+  <COLORDEFINITION COLORKEY="LABELBORDER" COLORNAME="Label Border" COLORTAG="-16777216" />
   <COLORDEFINITION COLORKEY="ERRORCOLOR" COLORNAME="Error" COLORTAG="-65536" />
   <JMRINAME JMRIPREFIX="CS" XMLTYPE="Sensor">jmri.jmrix.cmri.serial.SerialSensorManager</JMRINAME>
   <JMRINAME JMRIPREFIX="CT" XMLTYPE="Turnout">jmri.jmrix.cmri.serial.SerialTurnoutManager</JMRINAME>
-  <JMRINAME JMRIPREFIX="IC" XMLTYPE="Decoder Chain">cats.layout.items.IOSpecChain</JMRINAME>
+  <JMRINAME JMRIPREFIX="IC" XMLTYPE="none">cats.layout.items.IOSpecChain</JMRINAME>
   <JMRINAME JMRIPREFIX="IS" XMLTYPE="Sensor">jmri.managers.InternalSensorManager</JMRINAME>
   <JMRINAME JMRIPREFIX="IT" XMLTYPE="Turnout">jmri.managers.InternalTurnoutManager</JMRINAME>
   <JMRINAME JMRIPREFIX="XS" XMLTYPE="Sensor">jmri.jmrix.lenz.XNetSensorManager</JMRINAME>
   <JMRINAME JMRIPREFIX="XT" XMLTYPE="Turnout">jmri.jmrix.lenz.XNetTurnoutManager</JMRINAME>
+  <IOSPECCHAIN DECADDR="90" USER_NAME="OUT from S15">
+    <IOSPEC DECADDR="23" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="62" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="61" JMRIPREFIX="XT">throw</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="91" USER_NAME="OUT from S16">
+    <IOSPEC DECADDR="62" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="61" JMRIPREFIX="XT">close</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="44" USER_NAME="IN to S16">
+    <IOSPEC DECADDR="21" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="22" JMRIPREFIX="XT">throw</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="42" USER_NAME="IN to S15">
+    <IOSPEC DECADDR="21" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="22" JMRIPREFIX="XT">close</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="43" USER_NAME="OUT from S17">
+    <IOSPEC DECADDR="58" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="57" JMRIPREFIX="XT">throw</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="38" USER_NAME="IN to S17">
+    <IOSPEC DECADDR="18" JMRIPREFIX="XT">throw</IOSPEC>
+    <IOSPEC DECADDR="19" JMRIPREFIX="XT">close</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="45" USER_NAME="IN to S18">
+    <IOSPEC DECADDR="18" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="19" JMRIPREFIX="XT">close</IOSPEC>
+  </IOSPECCHAIN>
+  <IOSPECCHAIN DECADDR="41" USER_NAME="OUT from S18">
+    <IOSPEC DECADDR="58" JMRIPREFIX="XT">close</IOSPEC>
+    <IOSPEC DECADDR="57" JMRIPREFIX="XT">close</IOSPEC>
+  </IOSPECCHAIN>
   <IOSPECCHAIN DECADDR="962" USER_NAME="IN To S14">
     <IOSPEC DECADDR="960" JMRIPREFIX="IC">close</IOSPEC>
     <IOSPEC DECADDR="53" JMRIPREFIX="XT">throw</IOSPEC>
@@ -269,26 +311,26 @@
     <IOSPEC DECADDR="38" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="37" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="36" JMRIPREFIX="XT">throw</IOSPEC>
-    <IOSPEC DECADDR="35" JMRIPREFIX="XT">throw</IOSPEC>
+    <IOSPEC DECADDR="35" JMRIPREFIX="XT">close</IOSPEC>
   </IOSPECCHAIN>
   <IOSPECCHAIN DECADDR="150" USER_NAME="Out From S14">
     <IOSPEC DECADDR="39" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="38" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="37" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="36" JMRIPREFIX="XT">throw</IOSPEC>
-    <IOSPEC DECADDR="35" JMRIPREFIX="XT">throw</IOSPEC>
+    <IOSPEC DECADDR="35" JMRIPREFIX="XT">close</IOSPEC>
   </IOSPECCHAIN>
   <IOSPECCHAIN DECADDR="891" USER_NAME="IN to S10">
-    <IOSPEC DECADDR="35" JMRIPREFIX="XT">throw</IOSPEC>
+    <IOSPEC DECADDR="35" JMRIPREFIX="XT">close</IOSPEC>
     <IOSPEC DECADDR="36" JMRIPREFIX="XT">close</IOSPEC>
   </IOSPECCHAIN>
   <IOSPECCHAIN DECADDR="890" USER_NAME="IN To S11">
-    <IOSPEC DECADDR="35" JMRIPREFIX="XT">throw</IOSPEC>
+    <IOSPEC DECADDR="35" JMRIPREFIX="XT">close</IOSPEC>
     <IOSPEC DECADDR="36" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="37" JMRIPREFIX="XT">close</IOSPEC>
   </IOSPECCHAIN>
   <IOSPECCHAIN DECADDR="889" USER_NAME="IN to S12">
-    <IOSPEC DECADDR="35" JMRIPREFIX="XT">throw</IOSPEC>
+    <IOSPEC DECADDR="35" JMRIPREFIX="XT">close</IOSPEC>
     <IOSPEC DECADDR="36" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="37" JMRIPREFIX="XT">throw</IOSPEC>
     <IOSPEC DECADDR="38" JMRIPREFIX="XT">close</IOSPEC>
@@ -397,6 +439,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="21" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder from WC Junctinon to S15 &amp; S16">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="21" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder from WC Junctinon to S15 &amp; S16">throw</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
@@ -405,6 +450,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="21" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder from WC Junctinon to S15 &amp; S16">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="21" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder from WC Junctinon to S15 &amp; S16">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -532,6 +580,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="62" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder to S15 &amp; S16">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="62" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder to S15 &amp; S16">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
             <SELECTEDREPORT>
@@ -540,6 +591,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="62" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder to S15 &amp; S16">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="62" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder to S15 &amp; S16">throw</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -963,6 +1017,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="22" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder from WC Junctinon to S15">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="42" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
@@ -971,6 +1028,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="22" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder from WC Junctinon to S15">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="44" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -1097,6 +1157,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="61" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder to S15">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="90" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="LEFT">
             <SELECTEDREPORT>
@@ -1105,6 +1168,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="61" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 2 Ladder to S15">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="91" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -3467,11 +3533,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">close</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">throw</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -3510,11 +3576,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">close</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="ADM Switch Lock">throw</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -3696,32 +3762,18 @@
       </SEC_EDGE>
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
+              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch  6">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
+              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </ROUTECOMMAND>
@@ -3782,11 +3834,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Brewery Switch Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1005" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Brewery Switch Lock">close</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Brewery Switch Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1005" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Brewery Switch Lock">throw</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -3844,11 +3896,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1005" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">close</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1005" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">throw</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -4029,32 +4081,18 @@
       </TRACKGROUP>
       <SEC_EDGE EDGE="RIGHT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="1007" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="1007" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
+              <IOSPEC DECADDR="1008" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
+              <IOSPEC DECADDR="1008" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 9 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="9" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 9">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -4301,32 +4339,18 @@
       <SEC_EDGE EDGE="RIGHT" />
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
+              <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
+              <IOSPEC DECADDR="2001" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 13 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="13" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 13">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4474,32 +4498,18 @@
       </TRACKGROUP>
       <SEC_EDGE EDGE="RIGHT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
+              <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
+              <IOSPEC DECADDR="2002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 14 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="14" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 14">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4663,32 +4673,18 @@
       <SEC_EDGE EDGE="BOTTOM" />
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
+              <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
+              <IOSPEC DECADDR="2004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 17 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="17" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 17">close</IOSPEC>
             </ROUTECOMMAND>
@@ -4956,32 +4952,18 @@
       </SEC_EDGE>
       <SEC_EDGE EDGE="LEFT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="1002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="1002" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
+              <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
+              <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 5 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="5" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 5">throw</IOSPEC>
             </ROUTECOMMAND>
@@ -5025,32 +5007,18 @@
       </TRACKGROUP>
       <SEC_EDGE EDGE="RIGHT">
         <SWITCHPOINTS>
-          <POINTSMSG>
-            UNLOCKREPORT
-            <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Lock">throw</IOSPEC>
-          </POINTSMSG>
-          <POINTSMSG>
-            LOCKREPORT
-            <IOSPEC DECADDR="1003" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Lock">close</IOSPEC>
-          </POINTSMSG>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
+              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">throw</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
             </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="TOP">
             <SELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
+              <IOSPEC DECADDR="1004" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Switch 6 Position">close</IOSPEC>
             </SELECTEDREPORT>
-            <NOTSELECTEDREPORT>
-              <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">throw</IOSPEC>
-            </NOTSELECTEDREPORT>
             <ROUTECOMMAND>
               <IOSPEC DECADDR="6" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Switch 6">close</IOSPEC>
             </ROUTECOMMAND>
@@ -5222,11 +5190,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1005" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">close</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1005" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Waycross Yard Crossover Lock">throw</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -5347,11 +5315,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1007" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">throw</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1007" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">close</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -5390,11 +5358,11 @@
         <SWITCHPOINTS SPUR="true">
           <POINTSMSG>
             UNLOCKREPORT
-            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">throw</IOSPEC>
+            <IOSPEC DECADDR="1007" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">throw</IOSPEC>
           </POINTSMSG>
           <POINTSMSG>
             LOCKREPORT
-            <IOSPEC DECADDR="1006" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">close</IOSPEC>
+            <IOSPEC DECADDR="1007" JMRIPREFIX="CS" EXIT_CMD="true" USER_NAME="Yard Switch Lock">close</IOSPEC>
           </POINTSMSG>
           <ROUTEINFO ROUTEID="RIGHT" NORMAL="true" />
         </SWITCHPOINTS>
@@ -5703,7 +5671,7 @@
         <SECSIGNAL>
           S23
           <PHYSIGNAL>
-            Hood 1-head
+            1 head Intermediate
             <ASPECTTBL>
               <HEADSTATES SIGNALHEAD="S23Head0">
                 <ASPECTCOMMAND PLABEL="green">
@@ -5739,7 +5707,7 @@
         <SECSIGNAL>
           S7
           <PHYSIGNAL>
-            Hood 1-head
+            1 head Intermediate
             <ASPECTTBL>
               <HEADSTATES SIGNALHEAD="S7Head0">
                 <ASPECTCOMMAND PLABEL="green">
@@ -6626,6 +6594,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="19" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Smithfield">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="19" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Staging 1">throw</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
@@ -6634,6 +6605,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="19" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Staging 1">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="19" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Staging 1">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -6724,6 +6698,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="58" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Smithfield">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="58" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Smithfield">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="LEFT" NORMAL="true">
             <SELECTEDREPORT>
@@ -6732,6 +6709,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="58" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Smithfield">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="58" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 &amp; S18 From Smithfield">throw</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -7042,6 +7022,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="18" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 From Staging 1">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="45" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="BOTTOM">
             <SELECTEDREPORT>
@@ -7050,6 +7033,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="18" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 From Staging 1">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="38" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -7126,6 +7112,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="57" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 From Smithfield">close</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="43" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
           <ROUTEINFO ROUTEID="LEFT">
             <SELECTEDREPORT>
@@ -7134,6 +7123,9 @@
             <NOTSELECTEDREPORT>
               <IOSPEC DECADDR="57" JMRIPREFIX="XT" EXIT_CMD="true" USER_NAME="Staging 3 Switch to S17 From Smithfield">throw</IOSPEC>
             </NOTSELECTEDREPORT>
+            <ROUTECOMMAND>
+              <IOSPEC DECADDR="41" JMRIPREFIX="IC" EXIT_CMD="true">close</IOSPEC>
+            </ROUTECOMMAND>
           </ROUTEINFO>
         </SWITCHPOINTS>
       </SEC_EDGE>
@@ -7915,4 +7907,3 @@
     </SECTION>
   </TRACKPLAN>
 </DOCUMENT>
-
